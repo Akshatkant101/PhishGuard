@@ -1,0 +1,1611 @@
+{
+  "dataset_name": "PhishGuard Fresh Held-Out Test Set v3 (Untouched Benchmark)",
+  "created_at": "2026-10-16T18:57:49.827260+00:00",
+  "total_urls": 177,
+  "phishing_count": 39,
+  "legitimate_count": 138,
+  "tranco_rank_range": "10,000 - 500,000",
+  "composition": {
+    "phishing_live_feed": 39,
+    "tranco_homepages": 75,
+    "tranco_crawled_pages": 63,
+    "adult_piracy_legit": 0,
+    "general_legit": 138
+  },
+  "note": "Page URLs only. Static assets excluded. Strictly zero domain overlap with any prior split.",
+  "urls": [
+    {
+      "url": "https://loteriasdehoy.co/baloto",
+      "domain": "loteriasdehoy.co",
+      "label": 0,
+      "source": "tranco_rank_10142",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://nordcenterapp.kinsta.cloud/IRD26/captcha.php",
+      "domain": "kinsta.cloud",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "http://tokenimpro-cdn-cache-hk18.club/",
+      "domain": "tokenimpro-cdn-cache-hk18.club",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.hackerrank.com/writing/why-were-sorry",
+      "domain": "hackerrank.com",
+      "label": 0,
+      "source": "tranco_rank_11134",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "http://wh-appvin.com/",
+      "domain": "wh-appvin.com",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://hihi2.com/xmlrpc.php",
+      "domain": "hihi2.com",
+      "label": 0,
+      "source": "tranco_rank_10308",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.healthychildren.org/English/_vti_bin/spsdisco.aspx",
+      "domain": "healthychildren.org",
+      "label": 0,
+      "source": "tranco_rank_10510",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.edgenuity.com/learning-library/",
+      "domain": "edgenuity.com",
+      "label": 0,
+      "source": "tranco_rank_10321",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.schneider-electric.com/",
+      "domain": "schneider-electric.com",
+      "label": 0,
+      "source": "tranco_rank_10453",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://osmelhores-descontos.com/produto/5411961",
+      "domain": "osmelhores-descontos.com",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.loppytoonn.com/",
+      "domain": "loppytoonn.com",
+      "label": 0,
+      "source": "tranco_rank_11223",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.isp.sky/",
+      "domain": "isp.sky",
+      "label": 0,
+      "source": "tranco_rank_10936",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://docsewallet.com/Adobe_Installer.html",
+      "domain": "docsewallet.com",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://giftcode-10fest.iienquan-garena.com/e7b5ba3068cb2bce83d15e572dbe3c51FB",
+      "domain": "iienquan-garena.com",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.fqnovel.com/",
+      "domain": "fqnovel.com",
+      "label": 0,
+      "source": "tranco_rank_11132",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.asclepiuswellness.com/index.aspx",
+      "domain": "asclepiuswellness.com",
+      "label": 0,
+      "source": "tranco_rank_10167",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.xhplus.life/manifest.webmanifest",
+      "domain": "xhplus.life",
+      "label": 0,
+      "source": "tranco_rank_11100",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.totalav.com/product/antivirus-pro",
+      "domain": "totalav.com",
+      "label": 0,
+      "source": "tranco_rank_11112",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.assamesesexvideos.com/lander",
+      "domain": "assamesesexvideos.com",
+      "label": 0,
+      "source": "tranco_rank_11420",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.telesco.pe/",
+      "domain": "telesco.pe",
+      "label": 0,
+      "source": "tranco_rank_11161",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.ebharatgas.com/forHome/AboutBharatgas.html",
+      "domain": "ebharatgas.com",
+      "label": 0,
+      "source": "tranco_rank_10815",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.shaw.ca/plans?icid=R_WIR_6AO_3WXBEQ",
+      "domain": "shaw.ca",
+      "label": 0,
+      "source": "tranco_rank_10200",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.dailystar.co.uk/",
+      "domain": "dailystar.co.uk",
+      "label": 0,
+      "source": "tranco_rank_10941",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "http://www.cryptoweb3-dex.com/",
+      "domain": "cryptoweb3-dex.com",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.ocbnyutpfwjs.in/",
+      "domain": "ocbnyutpfwjs.in",
+      "label": 0,
+      "source": "tranco_rank_10821",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.modarteaccessories.com/",
+      "domain": "modarteaccessories.com",
+      "label": 0,
+      "source": "tranco_rank_10636",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.which.co.uk/saved",
+      "domain": "which.co.uk",
+      "label": 0,
+      "source": "tranco_rank_11111",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://xn--69-6tia3cb.net/page/2/",
+      "domain": "xn--69-6tia3cb.net",
+      "label": 0,
+      "source": "tranco_rank_10047",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.sc.gov/",
+      "domain": "sc.gov",
+      "label": 0,
+      "source": "tranco_rank_11139",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.srgyhjg.com/",
+      "domain": "srgyhjg.com",
+      "label": 0,
+      "source": "tranco_rank_11437",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://my.pconline.com.cn/passport/opens/authorize.jsp?type=weixin_online&return=https%3A//www.pconline.com.cn/",
+      "domain": "pconline.com.cn",
+      "label": 0,
+      "source": "tranco_rank_10466",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.honda.co.jp/Nbox/?from=top_main_bnr",
+      "domain": "honda.co.jp",
+      "label": 0,
+      "source": "tranco_rank_11142",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.arabnews.com/",
+      "domain": "arabnews.com",
+      "label": 0,
+      "source": "tranco_rank_10607",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.doceree.com/daily-command/launch",
+      "domain": "doceree.com",
+      "label": 0,
+      "source": "tranco_rank_10609",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.moviesmod.zone/",
+      "domain": "moviesmod.zone",
+      "label": 0,
+      "source": "tranco_rank_10817",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.clicktripz.com/why-tiki",
+      "domain": "clicktripz.com",
+      "label": 0,
+      "source": "tranco_rank_10274",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.speedcurve.com/",
+      "domain": "speedcurve.com",
+      "label": 0,
+      "source": "tranco_rank_10304",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.foxit.com/",
+      "domain": "foxit.com",
+      "label": 0,
+      "source": "tranco_rank_10429",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://tokennim-cdn24-hk01.club/",
+      "domain": "tokennim-cdn24-hk01.club",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.uw.edu.pl/",
+      "domain": "uw.edu.pl",
+      "label": 0,
+      "source": "tranco_rank_10652",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "http://tokemcdn-hk41.lol/",
+      "domain": "tokemcdn-hk41.lol",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.diwapay.com/",
+      "domain": "diwapay.com",
+      "label": 0,
+      "source": "tranco_rank_10910",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.vaultdcr.com/images/site.webmanifest",
+      "domain": "vaultdcr.com",
+      "label": 0,
+      "source": "tranco_rank_10432",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.blurb.com/",
+      "domain": "blurb.com",
+      "label": 0,
+      "source": "tranco_rank_10473",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.joinindianarmy.nic.in/",
+      "domain": "joinindianarmy.nic.in",
+      "label": 0,
+      "source": "tranco_rank_10212",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.pdsodisha.gov.in/Home/Index",
+      "domain": "pdsodisha.gov.in",
+      "label": 0,
+      "source": "tranco_rank_10792",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.vegamovies.futbol/",
+      "domain": "vegamovies.futbol",
+      "label": 0,
+      "source": "tranco_rank_11304",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://prime.riverai7z.com/stores/Freida-McFadden/author/B00ELQLN2I?_encoding=UTF8&node=&ref_=bktmUS_ASAP_ASAP_CB_Q426&shoppingPortalEnabled=true",
+      "domain": "riverai7z.com",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.google.cf/advanced_search?hl=en-IN&amp;authuser=0",
+      "domain": "google.cf",
+      "label": 0,
+      "source": "tranco_rank_10506",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.onlydesiporn.com/",
+      "domain": "onlydesiporn.com",
+      "label": 0,
+      "source": "tranco_rank_10001",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.cohere.com/site.webmanifest",
+      "domain": "cohere.com",
+      "label": 0,
+      "source": "tranco_rank_11158",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.klerk.ru/learn/catalog/?utm_source=klerk&amp;utm_medium=mobile&amp;utm_campaign=rc00592&amp;utm_content=header&amp;utm_term=8565",
+      "domain": "klerk.ru",
+      "label": 0,
+      "source": "tranco_rank_10617",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.dualeotruyencw.com/",
+      "domain": "dualeotruyencw.com",
+      "label": 0,
+      "source": "tranco_rank_11405",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://redhandsvid.com/lang/en",
+      "domain": "redhandsvid.com",
+      "label": 0,
+      "source": "tranco_rank_10838",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.netskope.com/",
+      "domain": "netskope.com",
+      "label": 0,
+      "source": "tranco_rank_11226",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "http://usepoints05.ink/JrNka",
+      "domain": "usepoints05.ink",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.nana-press.com/",
+      "domain": "nana-press.com",
+      "label": 0,
+      "source": "tranco_rank_10811",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.edreams.es/ca/",
+      "domain": "edreams.es",
+      "label": 0,
+      "source": "tranco_rank_10301",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.tsdtocl.com/",
+      "domain": "tsdtocl.com",
+      "label": 0,
+      "source": "tranco_rank_10016",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "http://come.ac/roblox-com-games-2753549-Fisch-privateserverlinkcode-81231542156548881651236588798200",
+      "domain": "come.ac",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.iberlibro.com/index.rss",
+      "domain": "iberlibro.com",
+      "label": 0,
+      "source": "tranco_rank_10626",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://xfhfstore.com/",
+      "domain": "xfhfstore.com",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.navima.jp/education/",
+      "domain": "navima.jp",
+      "label": 0,
+      "source": "tranco_rank_10236",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.tencentcs.com/",
+      "domain": "tencentcs.com",
+      "label": 0,
+      "source": "tranco_rank_11039",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.ufsc.br/",
+      "domain": "ufsc.br",
+      "label": 0,
+      "source": "tranco_rank_11289",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.nongnu.org/",
+      "domain": "nongnu.org",
+      "label": 0,
+      "source": "tranco_rank_10131",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.revjet.com/privacy-policy?hsLang=en",
+      "domain": "revjet.com",
+      "label": 0,
+      "source": "tranco_rank_10400",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "http://printportal.mcdbirth.us.cc/crs/verifycertificat%C3%A9.php",
+      "domain": "us.cc",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://rabanjuni.com/promotion/v2",
+      "domain": "rabanjuni.com",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://mailsunrise085.flazio.online/",
+      "domain": "flazio.online",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://desixxx.blog/page/2/",
+      "domain": "desixxx.blog",
+      "label": 0,
+      "source": "tranco_rank_10088",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://sinch.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsinch.com%2F",
+      "domain": "sinch.com",
+      "label": 0,
+      "source": "tranco_rank_11227",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.boutique1st.com/",
+      "domain": "boutique1st.com",
+      "label": 0,
+      "source": "tranco_rank_10177",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.survicate-cdn.com/",
+      "domain": "survicate-cdn.com",
+      "label": 0,
+      "source": "tranco_rank_11258",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.google.ki/",
+      "domain": "google.ki",
+      "label": 0,
+      "source": "tranco_rank_10480",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.184.in-addr.arpa/",
+      "domain": "184.in-addr.arpa",
+      "label": 0,
+      "source": "tranco_rank_10765",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.microtrustwall.shop/",
+      "domain": "microtrustwall.shop",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://my.mystnodes.com/login",
+      "domain": "mystnodes.com",
+      "label": 0,
+      "source": "tranco_rank_10294",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.teleparty.com/support",
+      "domain": "teleparty.com",
+      "label": 0,
+      "source": "tranco_rank_11008",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.bobolike.com/",
+      "domain": "bobolike.com",
+      "label": 0,
+      "source": "tranco_rank_11080",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.google.pn/advanced_search?hl=en-IN&amp;authuser=0",
+      "domain": "google.pn",
+      "label": 0,
+      "source": "tranco_rank_10489",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "http://whatsapp.laptopsupdate.com/",
+      "domain": "laptopsupdate.com",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.ovid.com/search",
+      "domain": "ovid.com",
+      "label": 0,
+      "source": "tranco_rank_10693",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.cinecalidad.am/feed/",
+      "domain": "cinecalidad.am",
+      "label": 0,
+      "source": "tranco_rank_10305",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.smartmovepro.net/",
+      "domain": "smartmovepro.net",
+      "label": 0,
+      "source": "tranco_rank_10175",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://myibd.investors.com/secure/signin.aspx?eurl=https%3A%2F%2Fwww.investors.com&amp;prompt=none",
+      "domain": "investors.com",
+      "label": 0,
+      "source": "tranco_rank_11203",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.rumahweb.com/feed",
+      "domain": "rumahweb.com",
+      "label": 0,
+      "source": "tranco_rank_10661",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.maxifoot.fr/",
+      "domain": "maxifoot.fr",
+      "label": 0,
+      "source": "tranco_rank_10043",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.swiss.com/",
+      "domain": "swiss.com",
+      "label": 0,
+      "source": "tranco_rank_11338",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.cartocdn.com/",
+      "domain": "cartocdn.com",
+      "label": 0,
+      "source": "tranco_rank_11093",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.gofund.me/nextassets/shared/site.webmanifest",
+      "domain": "gofund.me",
+      "label": 0,
+      "source": "tranco_rank_10669",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.megaescort.info/inserisci-annuncio",
+      "domain": "megaescort.info",
+      "label": 0,
+      "source": "tranco_rank_10004",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.google.com.tj/advanced_search?hl=en-IN&amp;authuser=0",
+      "domain": "google.com.tj",
+      "label": 0,
+      "source": "tranco_rank_11220",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.desiviral.net/",
+      "domain": "desiviral.net",
+      "label": 0,
+      "source": "tranco_rank_10793",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://vodafone-business-berlin.de/",
+      "domain": "vodafone-business-berlin.de",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.gmx.com/mail",
+      "domain": "gmx.com",
+      "label": 0,
+      "source": "tranco_rank_11137",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.hopto.org/",
+      "domain": "hopto.org",
+      "label": 0,
+      "source": "tranco_rank_10198",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "http://misspport.adieforhair.com/",
+      "domain": "adieforhair.com",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.windowscentral.com/",
+      "domain": "windowscentral.com",
+      "label": 0,
+      "source": "tranco_rank_11308",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.iha.ee/messages",
+      "domain": "iha.ee",
+      "label": 0,
+      "source": "tranco_rank_10114",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.samsungdive.com/",
+      "domain": "samsungdive.com",
+      "label": 0,
+      "source": "tranco_rank_10495",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://iostart-trezrioapps.framer.website/",
+      "domain": "framer.website",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.upessc.net/",
+      "domain": "upessc.net",
+      "label": 0,
+      "source": "tranco_rank_11367",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.google.cd/advanced_search?hl=en-IN&amp;authuser=0",
+      "domain": "google.cd",
+      "label": 0,
+      "source": "tranco_rank_10571",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.34sp.com/",
+      "domain": "34sp.com",
+      "label": 0,
+      "source": "tranco_rank_10923",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.google.kg/",
+      "domain": "google.kg",
+      "label": 0,
+      "source": "tranco_rank_10369",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://avtub.so/page/2/",
+      "domain": "avtub.so",
+      "label": 0,
+      "source": "tranco_rank_10766",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.fleetdm.com/",
+      "domain": "fleetdm.com",
+      "label": 0,
+      "source": "tranco_rank_10758",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.fireoscaptiveportal.com/",
+      "domain": "fireoscaptiveportal.com",
+      "label": 0,
+      "source": "tranco_rank_10788",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.dizinc.com/",
+      "domain": "dizinc.com",
+      "label": 0,
+      "source": "tranco_rank_11311",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.www.gov.il/",
+      "domain": "www.gov.il",
+      "label": 0,
+      "source": "tranco_rank_10562",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://static.toss.im/assets/toss-im/asset/intro-main.mp4",
+      "domain": "toss.im",
+      "label": 0,
+      "source": "tranco_rank_10745",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.rabantansy.com/",
+      "domain": "rabantansy.com",
+      "label": 0,
+      "source": "tranco_rank_11415",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://tokenimio-cdn-edge-hk52.club/",
+      "domain": "tokenimio-cdn-edge-hk52.club",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.toolmatrix.plus/",
+      "domain": "toolmatrix.plus",
+      "label": 0,
+      "source": "tranco_rank_10769",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.zuora.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.zuora.com%2F",
+      "domain": "zuora.com",
+      "label": 0,
+      "source": "tranco_rank_10366",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.openbudget.uz/",
+      "domain": "openbudget.uz",
+      "label": 0,
+      "source": "tranco_rank_11406",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.xuptsc.xyz/",
+      "domain": "xuptsc.xyz",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://lihi2.me/mhVFo",
+      "domain": "lihi2.me",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.videymyca.online/",
+      "domain": "videymyca.online",
+      "label": 0,
+      "source": "tranco_rank_10790",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "http://www.webemail-ocxsnetworksolutionweb.com/",
+      "domain": "webemail-ocxsnetworksolutionweb.com",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.amazon.cn/",
+      "domain": "amazon.cn",
+      "label": 0,
+      "source": "tranco_rank_11073",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.mtoken.help/",
+      "domain": "mtoken.help",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.ghost.io/fonts/",
+      "domain": "ghost.io",
+      "label": 0,
+      "source": "tranco_rank_11182",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.mob.com/",
+      "domain": "mob.com",
+      "label": 0,
+      "source": "tranco_rank_10813",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://s8ey.com/assets/terms-of-service.html",
+      "domain": "s8ey.com",
+      "label": 0,
+      "source": "tranco_rank_10320",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.rockylinux.org/",
+      "domain": "rockylinux.org",
+      "label": 0,
+      "source": "tranco_rank_11243",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.voglioporno.com/",
+      "domain": "voglioporno.com",
+      "label": 0,
+      "source": "tranco_rank_10139",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.telmexla.net.co/",
+      "domain": "telmexla.net.co",
+      "label": 0,
+      "source": "tranco_rank_10965",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://vodafone-business-berlin.store/",
+      "domain": "vodafone-business-berlin.store",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.x-stream.top/",
+      "domain": "x-stream.top",
+      "label": 0,
+      "source": "tranco_rank_10174",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "http://hindiper.com/crs/verifycertificat%C3%AA.php",
+      "domain": "hindiper.com",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.kddi.com/contact/",
+      "domain": "kddi.com",
+      "label": 0,
+      "source": "tranco_rank_10357",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://makelarij.be/wp-includes/Text/bgelawo/fjlargk/fagnvqi/hiug/pdfstemhnic.html",
+      "domain": "makelarij.be",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.retailrocket.ru/",
+      "domain": "retailrocket.ru",
+      "label": 0,
+      "source": "tranco_rank_11315",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.delhigovt.nic.in/",
+      "domain": "delhigovt.nic.in",
+      "label": 0,
+      "source": "tranco_rank_10188",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.nameserverservice.de/",
+      "domain": "nameserverservice.de",
+      "label": 0,
+      "source": "tranco_rank_11363",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "http://avtech-ltd.com/xinu9.html",
+      "domain": "avtech-ltd.com",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.boat-lifestyle.com/",
+      "domain": "boat-lifestyle.com",
+      "label": 0,
+      "source": "tranco_rank_10486",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://diariodocomercio.com.br/page/2/",
+      "domain": "diariodocomercio.com.br",
+      "label": 0,
+      "source": "tranco_rank_10615",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.neu.edu.cn/index.htm",
+      "domain": "neu.edu.cn",
+      "label": 0,
+      "source": "tranco_rank_10822",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.infoq.com/",
+      "domain": "infoq.com",
+      "label": 0,
+      "source": "tranco_rank_11207",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.usenix.org/usenix-home",
+      "domain": "usenix.org",
+      "label": 0,
+      "source": "tranco_rank_10839",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.xsolla.com/",
+      "domain": "xsolla.com",
+      "label": 0,
+      "source": "tranco_rank_10406",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.adskeeper.com/uk/home/",
+      "domain": "adskeeper.com",
+      "label": 0,
+      "source": "tranco_rank_11074",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.iprom.net/",
+      "domain": "iprom.net",
+      "label": 0,
+      "source": "tranco_rank_10976",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.ani-lab.jp/sp/article/?article_id=40001126&media_id=&user_id=",
+      "domain": "ani-lab.jp",
+      "label": 0,
+      "source": "tranco_rank_10223",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.jugem.jp/",
+      "domain": "jugem.jp",
+      "label": 0,
+      "source": "tranco_rank_10509",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://ywrfow.com/",
+      "domain": "ywrfow.com",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.porno365.broker/",
+      "domain": "porno365.broker",
+      "label": 0,
+      "source": "tranco_rank_10930",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.crowdin.com/astro-website/site.webmanifest",
+      "domain": "crowdin.com",
+      "label": 0,
+      "source": "tranco_rank_11344",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.naga-92.xyz/masuk",
+      "domain": "naga-92.xyz",
+      "label": 0,
+      "source": "tranco_rank_10089",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.cafebazaar.ir/",
+      "domain": "cafebazaar.ir",
+      "label": 0,
+      "source": "tranco_rank_11316",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.tcafe21.com/",
+      "domain": "tcafe21.com",
+      "label": 0,
+      "source": "tranco_rank_11068",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.buienradar.be/www.buienradar.be",
+      "domain": "buienradar.be",
+      "label": 0,
+      "source": "tranco_rank_10756",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.playwire.com/",
+      "domain": "playwire.com",
+      "label": 0,
+      "source": "tranco_rank_10330",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.google.mk/advanced_search?hl=en-IN&amp;authuser=0",
+      "domain": "google.mk",
+      "label": 0,
+      "source": "tranco_rank_10462",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.trackcourier.io/myaccount/history",
+      "domain": "trackcourier.io",
+      "label": 0,
+      "source": "tranco_rank_10881",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.builtin.com/companies",
+      "domain": "builtin.com",
+      "label": 0,
+      "source": "tranco_rank_11175",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://egihosting.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fegihosting.com%2F",
+      "domain": "egihosting.com",
+      "label": 0,
+      "source": "tranco_rank_11302",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.dyson.com/",
+      "domain": "dyson.com",
+      "label": 0,
+      "source": "tranco_rank_11390",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.admissions.nic.in/",
+      "domain": "admissions.nic.in",
+      "label": 0,
+      "source": "tranco_rank_10152",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://unl.one/26jfh.link",
+      "domain": "unl.one",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "http://75132962-22-20210126174654.webstarterz.com/combined/finished.html",
+      "domain": "webstarterz.com",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://danielnegru.com/adobekr.html",
+      "domain": "danielnegru.com",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.rocketreach.co/",
+      "domain": "rocketreach.co",
+      "label": 0,
+      "source": "tranco_rank_11198",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.biess.fin.ec/css.axd?css=/common/themes/biess/style.css",
+      "domain": "biess.fin.ec",
+      "label": 0,
+      "source": "tranco_rank_10153",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://vwwv-roblox.co/users/05229679/profile",
+      "domain": "vwwv-roblox.co",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.mketqua.net/xo-so",
+      "domain": "mketqua.net",
+      "label": 0,
+      "source": "tranco_rank_10112",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "http://gooeyspooon.co.uk/newreadymicrosoft/preload-centered-obfuscated.html",
+      "domain": "gooeyspooon.co.uk",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://allegrolokalnie.pl-9421411.icu/oferta/sony-playstation-5-slim-1-tb-z-napedem-1-kontroler-4-gry-b0deab4cbab91f55a8b01eff26a39fe2",
+      "domain": "pl-9421411.icu",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.splashtop.eu/",
+      "domain": "splashtop.eu",
+      "label": 0,
+      "source": "tranco_rank_11062",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.my3w.com/",
+      "domain": "my3w.com",
+      "label": 0,
+      "source": "tranco_rank_10837",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.arcor.de/",
+      "domain": "arcor.de",
+      "label": 0,
+      "source": "tranco_rank_10921",
+      "type": "homepage",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://sudo.uae-nesma.com/ipfs/QmUyifxc6L5Az5B8WXK5j1CUe8cajyLV3QvvsEK22f1rqE/pro.html?origin=%2F%2Fsudo.uae-nesma.com%2Fipfs%2FQmUyifxc6L5Az5B8WXK5j1CUe8cajyLV3QvvsEK22f1rqE%2Fpro.html",
+      "domain": "uae-nesma.com",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://135461223.site/953/3aefbb21-3704-4ce4-a8f6-bcda904a56d6/762395",
+      "domain": "135461223.site",
+      "label": 1,
+      "source": "openphish_fresh_v3",
+      "type": "phishing_feed",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    },
+    {
+      "url": "https://www.cdreader.com/Books/%E5%A5%B3%E9%A0%BB/%E7%B8%BD%E8%A3%81%E8%B1%AA%E9%96%80",
+      "domain": "cdreader.com",
+      "label": 0,
+      "source": "tranco_rank_11036",
+      "type": "crawled_page",
+      "is_adult_piracy": false,
+      "fetched_at": "2026-10-16T18:57:49.827260+00:00"
+    }
+  ]
+}

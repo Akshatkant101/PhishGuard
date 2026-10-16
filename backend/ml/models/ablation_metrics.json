@@ -1,0 +1,47 @@
+{
+  "Full Model (29 Feats)": {
+    "feature_count": 29,
+    "precision": 0.9886,
+    "recall": 0.9529,
+    "f1": 0.9704,
+    "roc_auc": 0.9898,
+    "fpr": 0.0109,
+    "fit_time_s": 0.97,
+    "confusion_matrix": {
+      "tn": 4971,
+      "fp": 55,
+      "fn": 236,
+      "tp": 4778
+    }
+  },
+  "Ablated (No Path Feats, 24 Feats)": {
+    "feature_count": 24,
+    "precision": 0.9824,
+    "recall": 0.935,
+    "f1": 0.9581,
+    "roc_auc": 0.9772,
+    "fpr": 0.0167,
+    "fit_time_s": 0.85,
+    "confusion_matrix": {
+      "tn": 4942,
+      "fp": 84,
+      "fn": 326,
+      "tp": 4688
+    }
+  },
+  "Raw PhiUSIIL (Path-Biased)": {
+    "feature_count": 29,
+    "precision": 0.9925,
+    "recall": 0.9767,
+    "f1": 0.9845,
+    "roc_auc": 0.9933,
+    "fpr": 0.0074,
+    "fit_time_s": 0.84,
+    "confusion_matrix": {
+      "tn": 4989,
+      "fp": 37,
+      "fn": 117,
+      "tp": 4897
+    }
+  }
+}

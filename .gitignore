@@ -1,0 +1,106 @@
+# ==============================================================================
+# PhishGuard Root .gitignore
+# ==============================================================================
+
+# ── Python / Virtual Environments ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ── Databases & Local Runtime Storage ──
+*.db
+*.sqlite
+*.sqlite3
+backend/phishguard.db
+phishguard.db
+
+# ── Environment & Secrets ──
+.env
+.env.*
+*.env
+!.env.example
+
+# ── Node.js / Frontend ──
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+dist-ssr/
+**/dist-ssr/
+.cache/
+**/.cache/
+.vite/
+**/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.eslintcache
+
+# ── ML Datasets & Models (Large Binary Files) ──
+backend/ml/data/*.csv
+!backend/ml/data/sample_urls.csv
+backend/ml/models/*.joblib
+backend/ml/models/*.pkl
+*.zip
+*.tar.gz
+
+# ── Testing & Code Quality ──
+.pytest_cache/
+**/.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.mypy_cache/
+.ruff_cache/
+
+# ── IDEs & Editors ──
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+*~
+
+# ── Operating System ──
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── Logs & Debugging ──
+*.log
+logs/
+**/logs/

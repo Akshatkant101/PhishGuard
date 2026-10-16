@@ -1,0 +1,152 @@
+[
+  {
+    "target": "Google Search (Benign)",
+    "url": "https://www.google.com/search?q=cybersecurity",
+    "true_label": "LEGIT",
+    "lexical_score": 2.5,
+    "enriched_score": 2.5,
+    "lexical_latency_ms": 30.61,
+    "enriched_latency_ms": 2292.81,
+    "enrichment_signals": {
+      "dns_resolves": true,
+      "tls_valid": true,
+      "tls_issuer": "Google Trust Services",
+      "password_field": false
+    }
+  },
+  {
+    "target": "GitHub Repository (Benign)",
+    "url": "https://github.com/torvalds/linux",
+    "true_label": "LEGIT",
+    "lexical_score": 99.9,
+    "enriched_score": 99.9,
+    "lexical_latency_ms": 6.4,
+    "enriched_latency_ms": 1230.15,
+    "enrichment_signals": {
+      "dns_resolves": true,
+      "tls_valid": true,
+      "tls_issuer": "Sectigo Limited",
+      "password_field": false
+    }
+  },
+  {
+    "target": "Wikipedia Article (Benign)",
+    "url": "https://en.wikipedia.org/wiki/Computer_security",
+    "true_label": "LEGIT",
+    "lexical_score": 1.3,
+    "enriched_score": 1.3,
+    "lexical_latency_ms": 7.32,
+    "enriched_latency_ms": 2697.42,
+    "enrichment_signals": {
+      "dns_resolves": true,
+      "tls_valid": true,
+      "tls_issuer": "Let's Encrypt",
+      "password_field": false
+    }
+  },
+  {
+    "target": "Python Software Foundation (Benign)",
+    "url": "https://www.python.org/downloads",
+    "true_label": "LEGIT",
+    "lexical_score": 1.2,
+    "enriched_score": 1.2,
+    "lexical_latency_ms": 6.89,
+    "enriched_latency_ms": 4457.59,
+    "enrichment_signals": {
+      "dns_resolves": true,
+      "tls_valid": true,
+      "tls_issuer": "GlobalSign nv-sa",
+      "password_field": false
+    }
+  },
+  {
+    "target": "Cloudflare Educational (Benign)",
+    "url": "https://cloudflare.com/learning/access-management/what-is-phishing",
+    "true_label": "LEGIT",
+    "lexical_score": 99.9,
+    "enriched_score": 99.9,
+    "lexical_latency_ms": 5.3,
+    "enriched_latency_ms": 2526.16,
+    "enrichment_signals": {
+      "dns_resolves": true,
+      "tls_valid": true,
+      "tls_issuer": "Google Trust Services",
+      "password_field": false
+    }
+  },
+  {
+    "target": "PayPal Impersonator (Phish)",
+    "url": "http://paypal-security-update.account-verification.xyz/login.php",
+    "true_label": "PHISH",
+    "lexical_score": 99.9,
+    "enriched_score": 99.9,
+    "lexical_latency_ms": 6.19,
+    "enriched_latency_ms": 2764.9,
+    "enrichment_signals": {
+      "dns_resolves": true,
+      "tls_valid": true,
+      "tls_issuer": "Let's Encrypt",
+      "password_field": false
+    }
+  },
+  {
+    "target": "Raw IP Router Host (Phish)",
+    "url": "http://192.168.1.1/admin/login",
+    "true_label": "PHISH",
+    "lexical_score": 99.9,
+    "enriched_score": 99.9,
+    "lexical_latency_ms": 4.8,
+    "enriched_latency_ms": 4.91,
+    "enrichment_signals": {
+      "dns_resolves": true,
+      "tls_valid": false,
+      "tls_issuer": null,
+      "password_field": false
+    }
+  },
+  {
+    "target": "Chase Executable Phish (Phish)",
+    "url": "http://secure-chase-online-banking-auth.top/login.exe",
+    "true_label": "PHISH",
+    "lexical_score": 99.9,
+    "enriched_score": 99.9,
+    "lexical_latency_ms": 4.49,
+    "enriched_latency_ms": 2001.36,
+    "enrichment_signals": {
+      "dns_resolves": false,
+      "tls_valid": false,
+      "tls_issuer": null,
+      "password_field": false
+    }
+  },
+  {
+    "target": "Apple ID Masquerade (Phish)",
+    "url": "https://apple-id-verify.support-device.xyz",
+    "true_label": "PHISH",
+    "lexical_score": 99.9,
+    "enriched_score": 99.9,
+    "lexical_latency_ms": 5.89,
+    "enriched_latency_ms": 2460.84,
+    "enrichment_signals": {
+      "dns_resolves": false,
+      "tls_valid": false,
+      "tls_issuer": null,
+      "password_field": false
+    }
+  },
+  {
+    "target": "Banking Scam TLD (Phish)",
+    "url": "http://service-alert-online-bank.xyz/verify",
+    "true_label": "PHISH",
+    "lexical_score": 99.9,
+    "enriched_score": 99.9,
+    "lexical_latency_ms": 5.51,
+    "enriched_latency_ms": 2239.43,
+    "enrichment_signals": {
+      "dns_resolves": false,
+      "tls_valid": false,
+      "tls_issuer": null,
+      "password_field": false
+    }
+  }
+]

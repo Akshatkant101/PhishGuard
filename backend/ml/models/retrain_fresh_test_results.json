@@ -1,0 +1,65 @@
+{
+  "pipeline_run_at": "2026-10-16T18:11:51.031218+00:00",
+  "total_pipeline_time_s": 338.8,
+  "training_metadata": {
+    "model_version": "v20261016_181150",
+    "total_samples": 50926,
+    "train_samples": 41744,
+    "test_samples": 9182,
+    "feature_count": 24
+  },
+  "offline_fpr": {
+    "previous": {
+      "fpr": 0.0151,
+      "prd": "MISS"
+    },
+    "retrained": {
+      "fpr": 0.0128,
+      "prd": "MISS"
+    }
+  },
+  "fresh_test_multi_threshold": {
+    "threshold_30": {
+      "threshold": 30,
+      "precision": 0.8649,
+      "recall": 0.96,
+      "fpr": 0.15,
+      "tp": 96,
+      "fp": 15,
+      "fn": 4,
+      "tn": 85,
+      "prd_precision": "MISS",
+      "prd_recall": "PASS",
+      "prd_fpr": "MISS"
+    },
+    "threshold_60": {
+      "threshold": 60,
+      "precision": 0.9048,
+      "recall": 0.95,
+      "fpr": 0.1,
+      "tp": 95,
+      "fp": 10,
+      "fn": 5,
+      "tn": 90,
+      "prd_precision": "MISS",
+      "prd_recall": "PASS",
+      "prd_fpr": "MISS"
+    },
+    "threshold_85": {
+      "threshold": 85,
+      "precision": 0.9135,
+      "recall": 0.95,
+      "fpr": 0.09,
+      "tp": 95,
+      "fp": 9,
+      "fn": 5,
+      "tn": 91,
+      "prd_precision": "MISS",
+      "prd_recall": "PASS",
+      "prd_fpr": "MISS"
+    }
+  },
+  "midtier_val_analysis": {
+    "total_urls": 100
+  }
+}

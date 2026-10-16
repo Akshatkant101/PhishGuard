@@ -1,0 +1,594 @@
+{
+  "dataset_name": "PhishGuard Mid-Tier Validation Set (Page URLs Only)",
+  "created_at": "2026-10-16T18:54:38.110933+00:00",
+  "total_urls": 73,
+  "legitimate_count": 73,
+  "phishing_count": 0,
+  "note": "Page URLs only. Static assets dropped. Used for FPR error analysis.",
+  "urls": [
+    {
+      "url": "https://www.cabelas.com/",
+      "domain": "cabelas.com",
+      "label": 0,
+      "source": "tranco_rank_12528",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.google.com.sb/",
+      "domain": "google.com.sb",
+      "label": 0,
+      "source": "tranco_rank_10598",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.pantheon.io/",
+      "domain": "pantheon.io",
+      "label": 0,
+      "source": "tranco_rank_13235",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.cikrf.ru/",
+      "domain": "cikrf.ru",
+      "label": 0,
+      "source": "tranco_rank_13052",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.netcoresmartech.com/",
+      "domain": "netcoresmartech.com",
+      "label": 0,
+      "source": "tranco_rank_11820",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.eppo.cloud/",
+      "domain": "eppo.cloud",
+      "label": 0,
+      "source": "tranco_rank_11810",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.coolrom.com/",
+      "domain": "coolrom.com",
+      "label": 0,
+      "source": "tranco_rank_10283",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.llnl.gov/",
+      "domain": "llnl.gov",
+      "label": 0,
+      "source": "tranco_rank_11718",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.country.is/",
+      "domain": "country.is",
+      "label": 0,
+      "source": "tranco_rank_13134",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.aqara.com/",
+      "domain": "aqara.com",
+      "label": 0,
+      "source": "tranco_rank_11912",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.wprost.pl/",
+      "domain": "wprost.pl",
+      "label": 0,
+      "source": "tranco_rank_13697",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.krikya11.club/",
+      "domain": "krikya11.club",
+      "label": 0,
+      "source": "tranco_rank_11417",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.ifttt.com/",
+      "domain": "ifttt.com",
+      "label": 0,
+      "source": "tranco_rank_11330",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.olx.uz/",
+      "domain": "olx.uz",
+      "label": 0,
+      "source": "tranco_rank_13280",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.peers.tv/",
+      "domain": "peers.tv",
+      "label": 0,
+      "source": "tranco_rank_13816",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.2k.com/",
+      "domain": "2k.com",
+      "label": 0,
+      "source": "tranco_rank_12264",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.tpgi.com.au/",
+      "domain": "tpgi.com.au",
+      "label": 0,
+      "source": "tranco_rank_12704",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.disneylandparis.com/",
+      "domain": "disneylandparis.com",
+      "label": 0,
+      "source": "tranco_rank_11328",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.jhkkjkj.com/",
+      "domain": "jhkkjkj.com",
+      "label": 0,
+      "source": "tranco_rank_13772",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.openjdk.org/",
+      "domain": "openjdk.org",
+      "label": 0,
+      "source": "tranco_rank_10404",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.google.com.fj/",
+      "domain": "google.com.fj",
+      "label": 0,
+      "source": "tranco_rank_10644",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.aidata.io/",
+      "domain": "aidata.io",
+      "label": 0,
+      "source": "tranco_rank_11716",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.doc.gov/",
+      "domain": "doc.gov",
+      "label": 0,
+      "source": "tranco_rank_13874",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.ksycdn.cn/",
+      "domain": "ksycdn.cn",
+      "label": 0,
+      "source": "tranco_rank_10721",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.vegamovies.catering/",
+      "domain": "vegamovies.catering",
+      "label": 0,
+      "source": "tranco_rank_11457",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.nelomanga.net/",
+      "domain": "nelomanga.net",
+      "label": 0,
+      "source": "tranco_rank_10521",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.alegroforte.lt/",
+      "domain": "alegroforte.lt",
+      "label": 0,
+      "source": "tranco_rank_11486",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.vesti.ru/",
+      "domain": "vesti.ru",
+      "label": 0,
+      "source": "tranco_rank_13173",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.se-platform.com/",
+      "domain": "se-platform.com",
+      "label": 0,
+      "source": "tranco_rank_10905",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.tencentcos.cn/",
+      "domain": "tencentcos.cn",
+      "label": 0,
+      "source": "tranco_rank_13073",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.gtmetrix.com/",
+      "domain": "gtmetrix.com",
+      "label": 0,
+      "source": "tranco_rank_12231",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.awsdns-42.co.uk/",
+      "domain": "awsdns-42.co.uk",
+      "label": 0,
+      "source": "tranco_rank_11030",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.hoopgame.net/",
+      "domain": "hoopgame.net",
+      "label": 0,
+      "source": "tranco_rank_10646",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.lojasrenner.com.br/",
+      "domain": "lojasrenner.com.br",
+      "label": 0,
+      "source": "tranco_rank_12522",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.dotabuff.com/",
+      "domain": "dotabuff.com",
+      "label": 0,
+      "source": "tranco_rank_12958",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.whoisdomain.kr/",
+      "domain": "whoisdomain.kr",
+      "label": 0,
+      "source": "tranco_rank_12497",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.dreamwidth.org/",
+      "domain": "dreamwidth.org",
+      "label": 0,
+      "source": "tranco_rank_12396",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.master.cz/",
+      "domain": "master.cz",
+      "label": 0,
+      "source": "tranco_rank_11894",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.8888.bg/",
+      "domain": "8888.bg",
+      "label": 0,
+      "source": "tranco_rank_10490",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.dota2.com/",
+      "domain": "dota2.com",
+      "label": 0,
+      "source": "tranco_rank_12520",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.jornada.com.mx/",
+      "domain": "jornada.com.mx",
+      "label": 0,
+      "source": "tranco_rank_13031",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.izooto.com/",
+      "domain": "izooto.com",
+      "label": 0,
+      "source": "tranco_rank_11779",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.babybus.com/",
+      "domain": "babybus.com",
+      "label": 0,
+      "source": "tranco_rank_11846",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.standaard.be/",
+      "domain": "standaard.be",
+      "label": 0,
+      "source": "tranco_rank_13239",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.mahateacherrecruitment.org.in/",
+      "domain": "mahateacherrecruitment.org.in",
+      "label": 0,
+      "source": "tranco_rank_11278",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.smu.edu.sg/",
+      "domain": "smu.edu.sg",
+      "label": 0,
+      "source": "tranco_rank_10678",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.22s5.com/",
+      "domain": "22s5.com",
+      "label": 0,
+      "source": "tranco_rank_10741",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.trvdp.com/",
+      "domain": "trvdp.com",
+      "label": 0,
+      "source": "tranco_rank_11090",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.coolacloud.com/",
+      "domain": "coolacloud.com",
+      "label": 0,
+      "source": "tranco_rank_13650",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.ezlo.com/",
+      "domain": "ezlo.com",
+      "label": 0,
+      "source": "tranco_rank_14185",
+      "type": "homepage",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.poder360.com.br/feed/",
+      "domain": "poder360.com.br",
+      "label": 0,
+      "source": "tranco_rank_13144",
+      "type": "crawled_page",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.anonymised.io/assets/fonts/graphik-regular.otf",
+      "domain": "anonymised.io",
+      "label": 0,
+      "source": "tranco_rank_10533",
+      "type": "crawled_page",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.weglot.com/fr",
+      "domain": "weglot.com",
+      "label": 0,
+      "source": "tranco_rank_10804",
+      "type": "crawled_page",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.csoonline.com/feed/",
+      "domain": "csoonline.com",
+      "label": 0,
+      "source": "tranco_rank_13537",
+      "type": "crawled_page",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.beenverified.com/login",
+      "domain": "beenverified.com",
+      "label": 0,
+      "source": "tranco_rank_12071",
+      "type": "crawled_page",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.sgnic.sg/Telerik.Web.UI.WebResource.axd?d=PMrIT5dOWaVYIcpFWUE4nEkdxWAxCrTI3v2YwbNiCO6xG50zHOq-uOodwNay0kC_krLmWPiVD2i4icj5bdDedl_o43TASODKEM5pI7N1bfiOJOK0nemKjmgP-rgZwvbk0&amp;t=638841342637275692&amp;compress=0&amp;_TSM_CombinedScripts_=%3b%3bTelerik.Sitefinity.Resources%2c+Version%3d14.4.8153.0%2c+Culture%3dneutral%2c+PublicKeyToken%3db28c218413bdf563%3aen%3a84826201-39e5-48f3-af93-13675acbe485%3a7a90d6a%3a83fa35c7",
+      "domain": "sgnic.sg",
+      "label": 0,
+      "source": "tranco_rank_12834",
+      "type": "crawled_page",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.dialogue.co/en/",
+      "domain": "dialogue.co",
+      "label": 0,
+      "source": "tranco_rank_12418",
+      "type": "crawled_page",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.edweek.org/index.rss",
+      "domain": "edweek.org",
+      "label": 0,
+      "source": "tranco_rank_12554",
+      "type": "crawled_page",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.bankofengland.co.uk/legal/privacy-and-cookie-policy",
+      "domain": "bankofengland.co.uk",
+      "label": 0,
+      "source": "tranco_rank_11238",
+      "type": "crawled_page",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.pubeasy.io/index.html",
+      "domain": "pubeasy.io",
+      "label": 0,
+      "source": "tranco_rank_10768",
+      "type": "crawled_page",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.commondreams.org/feeds/feed.rss",
+      "domain": "commondreams.org",
+      "label": 0,
+      "source": "tranco_rank_11959",
+      "type": "crawled_page",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.bgr.com/category/news/feed/",
+      "domain": "bgr.com",
+      "label": 0,
+      "source": "tranco_rank_12401",
+      "type": "crawled_page",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.scribehow.com/capture",
+      "domain": "scribehow.com",
+      "label": 0,
+      "source": "tranco_rank_13581",
+      "type": "crawled_page",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.vlaanderen.be/en",
+      "domain": "vlaanderen.be",
+      "label": 0,
+      "source": "tranco_rank_12325",
+      "type": "crawled_page",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://sparkpostmail.com/email-api",
+      "domain": "sparkpostmail.com",
+      "label": 0,
+      "source": "tranco_rank_11322",
+      "type": "crawled_page",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.maxmind.com/en/",
+      "domain": "maxmind.com",
+      "label": 0,
+      "source": "tranco_rank_11092",
+      "type": "crawled_page",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.omni.ru/global/keenetic-start",
+      "domain": "omni.ru",
+      "label": 0,
+      "source": "tranco_rank_12666",
+      "type": "crawled_page",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://mgread.io/wp-login.php?action=lostpassword",
+      "domain": "mgread.io",
+      "label": 0,
+      "source": "tranco_rank_10337",
+      "type": "crawled_page",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://mn.co/pricing",
+      "domain": "mn.co",
+      "label": 0,
+      "source": "tranco_rank_10469",
+      "type": "crawled_page",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://pickyassist.com/feed/",
+      "domain": "pickyassist.com",
+      "label": 0,
+      "source": "tranco_rank_12178",
+      "type": "crawled_page",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.utraff.com/ussp",
+      "domain": "utraff.com",
+      "label": 0,
+      "source": "tranco_rank_10714",
+      "type": "crawled_page",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.zinbe.com/site.webmanifest",
+      "domain": "zinbe.com",
+      "label": 0,
+      "source": "tranco_rank_11566",
+      "type": "crawled_page",
+      "is_adult_piracy": false
+    },
+    {
+      "url": "https://www.cloudamqp.com/site.webmanifest",
+      "domain": "cloudamqp.com",
+      "label": 0,
+      "source": "tranco_rank_12944",
+      "type": "crawled_page",
+      "is_adult_piracy": false
+    }
+  ]
+}

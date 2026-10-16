@@ -1,0 +1,1607 @@
+{
+  "split": "test",
+  "count": 200,
+  "generated_at": "2026-10-15T20:47:57.444467+00:00",
+  "urls": [
+    {
+      "url": "http://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/embedded-wallets/sdk/react-native/usage/login",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.apple.com/jo/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://sp15ct-zalroq-biz-vunex-telka.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.googlesyndication.com/",
+      "domain": "googlesyndication.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "http://norzavi-kxt-belfora-c4x8hq29.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://wtrkb7e52dr-yktpmlpw-5h0f8d-yk699a.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "http://mtvlj08qtw-qnkxz117nx-9j1h3e-zl621a.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.github.com/",
+      "domain": "github.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.apple.com/ae-ar/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.apple.com/in/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://goo.su/seur-26",
+      "domain": "goo.su",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "http://ornate-alfajores-8b7080.netlify.app/p/sst-cgj/lctwghft/index.html",
+      "domain": "netlify.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://center-support-taupe.vercel.app/required.html",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.googledomains.com/",
+      "domain": "googledomains.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.roblox.com/",
+      "domain": "roblox.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://sp10ct10-talvek-biz-lureni-kemro.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.mail.ru/",
+      "domain": "mail.ru",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://hwcps25kq-mtvlj81los-4k6j1b-qn428w.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.tiktok.com/",
+      "domain": "tiktok.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "http://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/embedded-wallets/connect-blockchain/evm",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://2hmes.com/inspectra/inspectra.html",
+      "domain": "2hmes.com",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.apple.com/cl/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.apple.com/nl/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "http://wtrkb428mjw-pfxmzrel-5i0h7g-yk899a.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.apple.com/tj/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.nginx.com/",
+      "domain": "nginx.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.root-servers.net/",
+      "domain": "root-servers.net",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://zunfaro-mpt-qavqeli-k7x4pe65.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://havp19-hbk14.vercel.app/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.trafficmanager.net/",
+      "domain": "trafficmanager.net",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.apple.com/lu/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.googletagmanager.com/",
+      "domain": "googletagmanager.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "http://zormavi-kxt-qanqela-a7x3hk92.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.apple.com/om/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.linkedin.com/",
+      "domain": "linkedin.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://burmelo-mpt-vazqaro-p6d4ka83.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.apple.com/ca/fr/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.googlevideo.com/",
+      "domain": "googlevideo.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://yktpm6agpxo-lhjndmja-1l2i4c-ykk61c.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.apple.com/cm/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://flybuysinfo.netlify.app/",
+      "domain": "netlify.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://aktiffkan-paylater-sekarang.netlify.app/",
+      "domain": "netlify.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "http://hwcps4158lk-qnkxzpli-4km17d-hwc92c.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "http://wetransfer-1.vercel.app/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "http://sp29ct-zomik-biz-relun-favro.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.apple.com/sn/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.gtld-servers.net/",
+      "domain": "gtld-servers.net",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://sp18ct10-xelrok-biz-vurami.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.goo.gl/",
+      "domain": "goo.gl",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.ntp.org/",
+      "domain": "ntp.org",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.apple.com/tw/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.yandex.net/",
+      "domain": "yandex.net",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.amazonaws.com/",
+      "domain": "amazonaws.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://sp22ct-telam-biz-koru-nevi.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "http://sp18ct10-zulnek-biz-qoravi.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "http://cryptomarketprime.com/",
+      "domain": "cryptomarketprime.com",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://badge-verified-black.vercel.app/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.apple.com/benl/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://qnkxz71dran-zlkyt55lpw-7i9g4d-bg294m.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://telquna-kxt-zelravi-c1x9hq42.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://sp15ct-mavren-biz-zulqor-kelvi.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "http://vormora-kxt-qervani-p1t6hk58.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.triplinkintl.com/",
+      "domain": "triplinkintl.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "http://center-support-taupe.vercel.app/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.yccdn.ru/",
+      "domain": "yccdn.ru",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "http://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/embedded-wallets/migration-guides/ios",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "http://pfxmz08qtw-wtrkb117nx-8i0g2e-yk621a.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.shiabank.com/",
+      "domain": "shiabank.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.apple.com/ci/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.chatgpt.com/",
+      "domain": "chatgpt.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.apple.com/befr/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "http://sp22ct-ravem-biz-zeli-puro.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.yahoo.com/",
+      "domain": "yahoo.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://fromtop.pages.dev/cpanel",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "http://mervani-kxt-qelmora-a6x9hq84.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.f5.com/",
+      "domain": "f5.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://netflix-clone-red-three.vercel.app/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.apple.com/la/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.apple.com/ug/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://stirring-tiramisu-606240.netlify.app/",
+      "domain": "netlify.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.gvt2.com/",
+      "domain": "gvt2.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "http://sp18ct10-fernak-biz-qavero.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://profile-session.vercel.app/accounts-center",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.cloudfront.net/",
+      "domain": "cloudfront.net",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://paket-packchen.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.apple.com/qa-ar/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.apple.com/gq/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.apple.com/kr/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.microsoft.com/",
+      "domain": "microsoft.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.appsflyersdk.com/",
+      "domain": "appsflyersdk.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://norzela-kxt-belmavi-c5x3hk82.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://bt6ej-dbp-61uy-vpwkq-01-10-2026-hh.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://sp22ct-tavur-biz-pemi-loku.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://pfxmz8c60qt-wtrkbnnx-9i4g0e-wt800a.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "http://sp33ct-faruno-biz-kemavi-loruto.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "http://burzuri-mpt-qafleni-k5x8pe97.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.hicloudcam.com/",
+      "domain": "hicloudcam.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://qs4l-380o-rec8-xdh-ayj-szs3du.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.roblox.com.mu/communities/9667875347/Vogue-Club",
+      "domain": "com.mu",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.apple.com/gr/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://sp22ct-kavur-biz-rinu-zalo.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.a2z.com/",
+      "domain": "a2z.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://okns29-hbk14.vercel.app/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.apple.com/mo/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.wa.me/",
+      "domain": "wa.me",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.azure.com/",
+      "domain": "azure.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://sp29ct-felra-biz-murti-zovek.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.fastly.net/",
+      "domain": "fastly.net",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://vormela-kxt-belfora-p7t4dw83.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "http://programagovregulariza.org/",
+      "domain": "programagovregulariza.org",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.apple.com/no/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.youtu.be/",
+      "domain": "youtu.be",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://moonlit-horse-8b9a8d.netlify.app/",
+      "domain": "netlify.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.apple.com/gw/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.apple.com/bg/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "http://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/agent-wallet/guides/lend-and-borrow-aave",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.apple.com/qa/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.apple.com/id/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://wh-t.netlify.app/",
+      "domain": "netlify.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "http://sp29ct-zemur-biz-lakti-fervo.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.instagram.com/",
+      "domain": "instagram.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.edgekey.net/",
+      "domain": "edgekey.net",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "http://www.profile-session.vercel.app/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.sentry.io/",
+      "domain": "sentry.io",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.roblox.com.pt/communities/229560760770/Celestial-v1",
+      "domain": "com.pt",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "http://venfaro-mpt-quzqeni-r6x9me84.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "http://sp29ct-norak-biz-vemti-zulro.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.apple.com/lae/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.apple.com/kg/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.apple.com/ie/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.vornexa-lik582947163.vercel.app/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://sp33ct-zoravi-biz-kemulo-daveni.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.apple.com/eg/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.myfritz.net/",
+      "domain": "myfritz.net",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.apple.com/chfr/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://qorzami-kxt-zelquro-p6t5hq393.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://emmnsm-a4k13wqn.vercel.app/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.digicert.com/",
+      "domain": "digicert.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "http://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/metamask-connect/evm/guides/sign-data",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.dzen.ru/",
+      "domain": "dzen.ru",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "http://vornexa-lik582947163.vercel.app/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.nginx.org/",
+      "domain": "nginx.org",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "http://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/snaps",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "http://wtrkb616mj-pfxmzren-5i2i7g-yk922a.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.apple.com/gn/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.apple.com/ml/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.apple.com/sg/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.live.com/",
+      "domain": "live.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "http://www.netflix-clone-red-three.vercel.app/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://qazmuri-mpt-felzavo-k8x3pe67.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.apple.com/se/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.b-cdn.net/",
+      "domain": "b-cdn.net",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "http://lervani-kxt-zorqema-p4t7dk92.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.apple.com/me/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "http://sp22ct-melav-biz-vori-nemu.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://classy-mandazi-a43cf5.netlify.app/",
+      "domain": "netlify.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://sp29ct-ravik-biz-tulen-zemro.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.facebook.com/",
+      "domain": "facebook.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "http://mfacebooks.com.vn/4stosh9y2ew?a&l",
+      "domain": "com.vn",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.apple.com/es/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.apple.com/kw-ar/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.apple.com/sk/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.apple.com/ke/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://ujnm27-hbk14.vercel.app/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "http://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/agent-wallet/guides/swap-and-bridge",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.akamai.net/",
+      "domain": "akamai.net",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.apple.com/nz/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://qelvani-mpt-zofquri-h7d6ka94.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.apple.com/ne/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "http://statuesque-platypus-6468fd.netlify.app/",
+      "domain": "netlify.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.twitter.com/",
+      "domain": "twitter.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "http://sp15ct-vurzen-biz-kelun-zavri.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "http://elaborate-bonbon-494ea1.netlify.app/",
+      "domain": "netlify.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "http://xila8-d9qf-rzrpx-dixm6-7sdfex.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "http://telzora-kxt-felmora-c5x8dp91.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.apple.com/mz/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.msn.com/",
+      "domain": "msn.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.apple.com/br/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.apple.com/ge/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.endpoints.news/",
+      "domain": "endpoints.news",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.apple.com/lv/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.apple.com/mg/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://www.apple.com/mu/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://wtrkb511mj-pfxmz81ren-5i2i8g-yk418k.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "http://profile-session.vercel.app/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "http://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/tutorials/create-invite-link",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.gstatic.com/",
+      "domain": "gstatic.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "https://yktpm2bpzgo-lhjndlsi-1l0i4b-ykk90c.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.apple.com/pt/",
+      "domain": "apple.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "http://mrqxb0fdran-byktplpw-4g1e3d-by811a.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://keen-speculoos-7de71f.netlify.app/",
+      "domain": "netlify.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://wh-t.netlify.app/join/index.html",
+      "domain": "netlify.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.costom-uvwc.vercel.app/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "http://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/developer-tools/dashboard/how-to/network-status",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.netflix.com/",
+      "domain": "netflix.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "http://sp30ct-zalik-biz-qovex-munad.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://hhseju.cn/",
+      "domain": "hhseju.cn",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "https://www.google.com/",
+      "domain": "google.com",
+      "label": 0,
+      "source": "tranco",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T20:47:23.203424+00:00"
+    },
+    {
+      "url": "http://sp18ct10-galvek-biz-zunari.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    },
+    {
+      "url": "http://spinning-methods-273846.framer.app/",
+      "domain": "framer.app",
+      "label": 1,
+      "source": "openphish",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T20:47:21.289472+00:00"
+    }
+  ]
+}

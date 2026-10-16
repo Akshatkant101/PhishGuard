@@ -1,0 +1,131 @@
+{
+  "model_version": "v20261016_185747",
+  "model_type": "XGBoost + Platt Calibration (Headline Ablated 24-Feature (Zero Path Bias))",
+  "main_model": "XGBoost + Platt Calibration (Headline Ablated 24-Feature (Zero Path Bias))",
+  "base_model": "XGBoost",
+  "training_date": "2026-10-16T18:57:47.977220+00:00",
+  "dataset": "C:\\Users\\aksha\\OneDrive\\Desktop\\phishing-website\\backend\\ml\\data\\phiusiil_50k_augmented.csv",
+  "total_samples": 50859,
+  "train_samples": 41508,
+  "test_samples": 9351,
+  "train_domains": 29028,
+  "test_domains": 7258,
+  "domain_leakage": 0,
+  "feature_count": 24,
+  "feature_names": [
+    "is_https",
+    "domain_length",
+    "hostname_length",
+    "domain_dot_count",
+    "domain_hyphen_count",
+    "domain_digit_count",
+    "domain_digit_ratio",
+    "domain_entropy",
+    "subdomain_count",
+    "has_ip_address",
+    "suspicious_tld",
+    "tld_length",
+    "has_punycode",
+    "brand_in_subdomain",
+    "brand_in_domain",
+    "brand_impersonation",
+    "has_at_symbol",
+    "has_double_slash_redirect",
+    "url_special_char_ratio",
+    "url_digit_ratio",
+    "is_shortened",
+    "query_param_count",
+    "query_length_ratio",
+    "has_fragment"
+  ],
+  "tld_rate_feature": "suspicious_tld (continuous, Laplace-smoothed from training data)",
+  "all_model_metrics": {
+    "Logistic Regression": {
+      "precision": 0.9686,
+      "recall": 0.9083,
+      "f1": 0.9375,
+      "roc_auc": 0.9762,
+      "fpr": 0.0255,
+      "train_time_s": 0.093
+    },
+    "Random Forest": {
+      "precision": 0.9897,
+      "recall": 0.9147,
+      "f1": 0.9507,
+      "roc_auc": 0.9802,
+      "fpr": 0.0083,
+      "train_time_s": 0.424
+    },
+    "XGBoost (Raw)": {
+      "precision": 0.9866,
+      "recall": 0.9327,
+      "f1": 0.9589,
+      "roc_auc": 0.9825,
+      "fpr": 0.0109,
+      "train_time_s": 0.367
+    },
+    "XGBoost (Calibrated)": {
+      "precision": 0.9891,
+      "recall": 0.9428,
+      "f1": 0.9654,
+      "roc_auc": 0.9863,
+      "fpr": 0.009,
+      "train_time_s": 0.828
+    }
+  },
+  "validation_metrics": {
+    "Logistic Regression": {
+      "precision": 0.9686,
+      "recall": 0.9083,
+      "f1": 0.9375,
+      "roc_auc": 0.9762,
+      "fpr": 0.0255,
+      "train_time_s": 0.093
+    },
+    "Random Forest": {
+      "precision": 0.9897,
+      "recall": 0.9147,
+      "f1": 0.9507,
+      "roc_auc": 0.9802,
+      "fpr": 0.0083,
+      "train_time_s": 0.424
+    },
+    "XGBoost (Raw)": {
+      "precision": 0.9866,
+      "recall": 0.9327,
+      "f1": 0.9589,
+      "roc_auc": 0.9825,
+      "fpr": 0.0109,
+      "train_time_s": 0.367
+    },
+    "XGBoost (Calibrated)": {
+      "precision": 0.9891,
+      "recall": 0.9428,
+      "f1": 0.9654,
+      "roc_auc": 0.9863,
+      "fpr": 0.009,
+      "train_time_s": 0.828
+    }
+  },
+  "best_model_metrics": {
+    "precision": 0.9891,
+    "recall": 0.9428,
+    "f1": 0.9654,
+    "roc_auc": 0.9863,
+    "fpr": 0.009,
+    "train_time_s": 0.828
+  },
+  "class_distribution": {
+    "total": 50859,
+    "train_legit": 20536,
+    "train_phish": 20972,
+    "test_legit": 5338,
+    "test_phish": 4013
+  },
+  "bias_check": {
+    "avg_url_length_legit": 32.6,
+    "avg_url_length_phish": 46.6,
+    "delta": 14.0
+  },
+  "uses_scaled_features": false
+}

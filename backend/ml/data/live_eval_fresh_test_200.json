@@ -1,0 +1,1611 @@
+{
+  "dataset_name": "PhishGuard Fresh Held-Out Test Set (Untouched Benchmark)",
+  "created_at": "2026-10-15T21:24:33.558112+00:00",
+  "total_urls": 200,
+  "phishing_count": 100,
+  "legitimate_count": 100,
+  "tranco_rank_range": "10,000 - 500,000 (Mid-tier real websites)",
+  "note": "Untouched test holdout. Never used for tuning weights or thresholds.",
+  "urls": [
+    {
+      "url": "https://marlavi-kxt-belfora-c6x8dp37.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://trafficnews.jp/favicons/apple-touch-icon-57x57.png",
+      "domain": "trafficnews.jp",
+      "label": 0,
+      "source": "tranco_rank_10010",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.reviews.io/",
+      "domain": "reviews.io",
+      "label": 0,
+      "source": "tranco_rank_10239",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://static.fcinter1908.it/build/sites/fcinter1908-it/icons/favicon.0bbd6c55.ico",
+      "domain": "fcinter1908.it",
+      "label": 0,
+      "source": "tranco_rank_10281",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.taleo.net/",
+      "domain": "taleo.net",
+      "label": 0,
+      "source": "tranco_rank_10295",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.ratkojat.fi/",
+      "domain": "ratkojat.fi",
+      "label": 0,
+      "source": "tranco_rank_10001",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://srimanth999.github.io/Budget-Tracker",
+      "domain": "github.io",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "http://ledger-com-start-us-auth-start.typedream.app/",
+      "domain": "typedream.app",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://iun6b-jck-xtdj-e5qqo-12-10-2026-aa.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "http://morlavi-kxt-belfeta-c8x1fc95.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.dpbosssattamatka.com/",
+      "domain": "dpbosssattamatka.com",
+      "label": 0,
+      "source": "tranco_rank_10252",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.insidehighered.com/sites/default/files/2023-05/ihe-logo-no-wordmark.png",
+      "domain": "insidehighered.com",
+      "label": 0,
+      "source": "tranco_rank_10288",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.hindixxxsite.com/",
+      "domain": "hindixxxsite.com",
+      "label": 0,
+      "source": "tranco_rank_10086",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://xrxly-h0w-logd-30ss8-12-10-2026-aa.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://satta-king-up.com/css/layout.css?v=1.5",
+      "domain": "satta-king-up.com",
+      "label": 0,
+      "source": "tranco_rank_10270",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://xn--y3ctaak9bb.com/wp-content/themes/heehorm/assets/css/bulma.css?x57655&amp;ver=1.0.5",
+      "domain": "xn--y3ctaak9bb.com",
+      "label": 0,
+      "source": "tranco_rank_10210",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "http://zftvw53hwu-mrqxb81fyn-8j6h3g-by755c.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.alfavita.gr/",
+      "domain": "alfavita.gr",
+      "label": 0,
+      "source": "tranco_rank_10283",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "http://xvqmr4c01pl-gxbcdyhy-7h4f8g-kz511a.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://vieww-blockiifii-loggin.webflow.io/",
+      "domain": "webflow.io",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://tiger365.pro/assets/tiger/assets/img/favicon.ico",
+      "domain": "tiger365.pro",
+      "label": 0,
+      "source": "tranco_rank_10131",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "http://cpsgift.com/blackops6/ps5",
+      "domain": "cpsgift.com",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "http://sp30ct-zorun-biz-kemix-mavel.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.sattamatkaresult.info/",
+      "domain": "sattamatkaresult.info",
+      "label": 0,
+      "source": "tranco_rank_10246",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.egy69.com/favicon.ico",
+      "domain": "egy69.com",
+      "label": 0,
+      "source": "tranco_rank_10121",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.moomoo.com/sg",
+      "domain": "moomoo.com",
+      "label": 0,
+      "source": "tranco_rank_10132",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "http://qavqani-mpt-zurfelo-r6x8me71.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.tuazar.com/",
+      "domain": "tuazar.com",
+      "label": 0,
+      "source": "tranco_rank_10024",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://etanda.com/network/index.html",
+      "domain": "etanda.com",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.digitalspy.com/_assets/design-tokens/digitalspy/static/images/favicon.b8735b8.ico",
+      "domain": "digitalspy.com",
+      "label": 0,
+      "source": "tranco_rank_10223",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "http://sp20ct-felqov-biz-pradik-korsel.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.1kuji.com/",
+      "domain": "1kuji.com",
+      "label": 0,
+      "source": "tranco_rank_10224",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://0643412b.pinit.eth.limo/",
+      "domain": "eth.limo",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "http://nervela-kxt-felqora-a4x9fq67.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://bldramaturkey.co/public/static/favicon-96.png",
+      "domain": "bldramaturkey.co",
+      "label": 0,
+      "source": "tranco_rank_10006",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://1y3uf-ewh-dbm5-08e1b-12-10-2026-aa.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://hkjfo-haa-svz7-f0u02-01-10-2026-hh.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.google.com.ag/advanced_search?hl=en-IN&amp;authuser=0",
+      "domain": "google.com.ag",
+      "label": 0,
+      "source": "tranco_rank_10061",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "http://venquri-mpt-fazlano-h6d4ka83.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.keralalotteries.net/favicon.ico",
+      "domain": "keralalotteries.net",
+      "label": 0,
+      "source": "tranco_rank_10148",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://yanhh3d.ee/page/2",
+      "domain": "yanhh3d.ee",
+      "label": 0,
+      "source": "tranco_rank_10066",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "http://sp30ct-vurex-biz-qalon-zadik.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "http://spoitiy007.github.io/Spoitiy-Netflix",
+      "domain": "github.io",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.qbrik.in/",
+      "domain": "qbrik.in",
+      "label": 0,
+      "source": "tranco_rank_10268",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.drexel.edu/carbon/css/drexel-base-generated.css",
+      "domain": "drexel.edu",
+      "label": 0,
+      "source": "tranco_rank_10189",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://g5.lu/h9pa6",
+      "domain": "g5.lu",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.lotterysambadresult.in/",
+      "domain": "lotterysambadresult.in",
+      "label": 0,
+      "source": "tranco_rank_10133",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.xxxvideosex.net/",
+      "domain": "xxxvideosex.net",
+      "label": 0,
+      "source": "tranco_rank_10192",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "http://18um8-lo5-jmoy-ftmkr-01-10-2026-hh.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.hover.to/",
+      "domain": "hover.to",
+      "label": 0,
+      "source": "tranco_rank_10220",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.bhavyabiharhealth.in/",
+      "domain": "bhavyabiharhealth.in",
+      "label": 0,
+      "source": "tranco_rank_10250",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/metamask-connect/multichain/concepts/scopes/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.yenibeygir.com/",
+      "domain": "yenibeygir.com",
+      "label": 0,
+      "source": "tranco_rank_10089",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.obqj2.com/",
+      "domain": "obqj2.com",
+      "label": 0,
+      "source": "tranco_rank_10100",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "http://9l1cx-cjp-l5go-j3wjf-28-09-2026-hh.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://sanket1103.github.io/netflix-clone/",
+      "domain": "github.io",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://javwow.net/page/2/",
+      "domain": "javwow.net",
+      "label": 0,
+      "source": "tranco_rank_10227",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.life-n.jp/img/common/favicon.ico",
+      "domain": "life-n.jp",
+      "label": 0,
+      "source": "tranco_rank_10260",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://sharemyhtml.com/p/aCBlnpsOgW#halanlab@ac33b883c35f2bcbc1e4fbf7bcaceeaf46eb.net",
+      "domain": "sharemyhtml.com",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/embedded-wallets/sdk/unreal/advanced/whitelabel/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.work24.go.kr/",
+      "domain": "work24.go.kr",
+      "label": 0,
+      "source": "tranco_rank_10037",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "http://sp21ct-kurvi-biz-nalo-meku.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.storytv.co/assets/index-DCMj_uEs.css",
+      "domain": "storytv.co",
+      "label": 0,
+      "source": "tranco_rank_10207",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.xxxza.com/xmlrpc.php",
+      "domain": "xxxza.com",
+      "label": 0,
+      "source": "tranco_rank_10096",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.pch.net/",
+      "domain": "pch.net",
+      "label": 0,
+      "source": "tranco_rank_10181",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://ckblt-p5u-bxr9-m50d5-01-10-2026-hh.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.zndns.com/",
+      "domain": "zndns.com",
+      "label": 0,
+      "source": "tranco_rank_10297",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "http://html-website-starter--ashbrightcer.replit.app/",
+      "domain": "replit.app",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "http://rodlox.cu.ma/",
+      "domain": "cu.ma",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.point-news.jp/img/common/favicon.ico",
+      "domain": "point-news.jp",
+      "label": 0,
+      "source": "tranco_rank_10267",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.maxwinexch99.com/",
+      "domain": "maxwinexch99.com",
+      "label": 0,
+      "source": "tranco_rank_10261",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://hhkungfu.ee/page/2",
+      "domain": "hhkungfu.ee",
+      "label": 0,
+      "source": "tranco_rank_10033",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "http://sfg87-mut-uewb-z6e29-01-10-2026-hh.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/metamask-connect/evm/guides/send-transactions/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.fulldesisex.com/theme/xxxtube/css/bootstrap.min.css",
+      "domain": "fulldesisex.com",
+      "label": 0,
+      "source": "tranco_rank_10099",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "http://6rqu5-9xr-65ao-as27d-28-09-2026-hh.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.zellbury.com/",
+      "domain": "zellbury.com",
+      "label": 0,
+      "source": "tranco_rank_10032",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/metamask-connect/multichain/quickstart/react-native/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://5m46s-i37-2wfk-z4qim-12-10-2026-aa.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.callbomberz.in/favicon.ico",
+      "domain": "callbomberz.in",
+      "label": 0,
+      "source": "tranco_rank_10078",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/metamask-connect/evm/guides/manage-user-accounts/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.thisiscm.com/",
+      "domain": "thisiscm.com",
+      "label": 0,
+      "source": "tranco_rank_10158",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.mkvmoviespoint.vet/",
+      "domain": "mkvmoviespoint.vet",
+      "label": 0,
+      "source": "tranco_rank_10225",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.hef.co.ke/",
+      "domain": "hef.co.ke",
+      "label": 0,
+      "source": "tranco_rank_10034",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.tantora.jp/",
+      "domain": "tantora.jp",
+      "label": 0,
+      "source": "tranco_rank_10276",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "http://sp21ct-vemor-biz-lanu-kazi.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.docsclouds.sbs/",
+      "domain": "docsclouds.sbs",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.filmyfly.farm/",
+      "domain": "filmyfly.farm",
+      "label": 0,
+      "source": "tranco_rank_10253",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.d2t.live/",
+      "domain": "d2t.live",
+      "label": 0,
+      "source": "tranco_rank_10251",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.aghazno12.com/assets/images/favicon-96x96.png",
+      "domain": "aghazno12.com",
+      "label": 0,
+      "source": "tranco_rank_10209",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://burfaro-mpt-zunqeli-p4d7ka82.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/embedded-wallets/sdk/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.k2.cloud/",
+      "domain": "k2.cloud",
+      "label": 0,
+      "source": "tranco_rank_10208",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.doujin-y.com/",
+      "domain": "doujin-y.com",
+      "label": 0,
+      "source": "tranco_rank_10106",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.jalf.com/_next/static/media/0c8f209abc35ee02-s.p.a4b9a15b.woff2",
+      "domain": "jalf.com",
+      "label": 0,
+      "source": "tranco_rank_10113",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://sp33ct-nemavo-biz-kureni-taleko.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "http://5ll33-m2o-v8lj-njomq-28-09-2026-hh.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.storytv.co.in/assets/index-DCMj_uEs.css",
+      "domain": "storytv.co.in",
+      "label": 0,
+      "source": "tranco_rank_10219",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.edu.gob.sv/",
+      "domain": "edu.gob.sv",
+      "label": 0,
+      "source": "tranco_rank_10103",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.roblox.rw/users/289389877151/profile",
+      "domain": "roblox.rw",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.pinayflix.uk/submit-a-video/",
+      "domain": "pinayflix.uk",
+      "label": 0,
+      "source": "tranco_rank_10031",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://dholisaag.com/dashboard/mwmjc/",
+      "domain": "dholisaag.com",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "http://3sg2c-s7u-a9ud-milce-28-09-2026-hh.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.chime.aws/contact-us/?nc2=h_ut_cu",
+      "domain": "chime.aws",
+      "label": 0,
+      "source": "tranco_rank_10154",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/agent-wallet/quickstart/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/agent-wallet/guides/trade-perpetuals/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.hsforms.net/",
+      "domain": "hsforms.net",
+      "label": 0,
+      "source": "tranco_rank_10123",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.babel.com/",
+      "domain": "babel.com",
+      "label": 0,
+      "source": "tranco_rank_10144",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.funinstar.com/mobile",
+      "domain": "funinstar.com",
+      "label": 0,
+      "source": "tranco_rank_10254",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.xseenx.com/",
+      "domain": "xseenx.com",
+      "label": 0,
+      "source": "tranco_rank_10231",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.paryajlakay.com/styles.c11e71a5235255ffb158.css",
+      "domain": "paryajlakay.com",
+      "label": 0,
+      "source": "tranco_rank_10146",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.uonohubweb.com/",
+      "domain": "uonohubweb.com",
+      "label": 0,
+      "source": "tranco_rank_10245",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "http://sp10ct10-felnek-biz-luravi.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://fatima-algahaim.github.io/netflix-clone",
+      "domain": "github.io",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.playkaro365.com/redirect/facebook",
+      "domain": "playkaro365.com",
+      "label": 0,
+      "source": "tranco_rank_10266",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.vidoyyo.space/",
+      "domain": "vidoyyo.space",
+      "label": 0,
+      "source": "tranco_rank_10115",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.lotoven.com/",
+      "domain": "lotoven.com",
+      "label": 0,
+      "source": "tranco_rank_10055",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.promptseen.com/",
+      "domain": "promptseen.com",
+      "label": 0,
+      "source": "tranco_rank_10190",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.avanture.net/",
+      "domain": "avanture.net",
+      "label": 0,
+      "source": "tranco_rank_10206",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.hsd.carollinaromer.com/",
+      "domain": "carollinaromer.com",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/embedded-wallets/sdk/node",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "http://sp30ct-ravul-biz-zorek-qemad.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "http://majorrider189.mypi.co/",
+      "domain": "mypi.co",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/embedded-wallets/sdk/js",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.beijing.gov.cn/favicon.ico",
+      "domain": "beijing.gov.cn",
+      "label": 0,
+      "source": "tranco_rank_10065",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.sattakingy.in/",
+      "domain": "sattakingy.in",
+      "label": 0,
+      "source": "tranco_rank_10173",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/metamask-connect/evm/quickstart/react-native/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "http://n2faw-ucj-zm9y-zd8ai-01-10-2026-hh.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://sp33ct-seluno-biz-vareko-munali.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/embedded-wallets/sdk/unity",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/embedded-wallets/sdk/vue/examples/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "http://sp21ct-zelvi-biz-pora-naku.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/services/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.ushmm.org/",
+      "domain": "ushmm.org",
+      "label": 0,
+      "source": "tranco_rank_10291",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.sattamatkajico.com/assets/dist/images/fav.ico",
+      "domain": "sattamatkajico.com",
+      "label": 0,
+      "source": "tranco_rank_10244",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.indiamobiletube.com/css/style.css",
+      "domain": "indiamobiletube.com",
+      "label": 0,
+      "source": "tranco_rank_10228",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "http://hf8fb-ap7-riw2-t42hd-28-09-2026-hh.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.khelo24match99.com/manifest.json?bid=&ic=&name=",
+      "domain": "khelo24match99.com",
+      "label": 0,
+      "source": "tranco_rank_10212",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.acadeu.com/",
+      "domain": "acadeu.com",
+      "label": 0,
+      "source": "tranco_rank_10159",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://1rtdu-4vg-0eaz-t48gp-13-10-2026-aa.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://xqlsc-fsm-zkyc-tz41o-01-10-2026-hh.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.allnewyonoapps.com/apple-touch-icon.png",
+      "domain": "allnewyonoapps.com",
+      "label": 0,
+      "source": "tranco_rank_10243",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://ledgernload.gitbook.io/",
+      "domain": "gitbook.io",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "http://reword-ff-garana-bd.github.io/site",
+      "domain": "github.io",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/metamask-connect/multichain/concepts/sessions/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://sp22ct-kavur-biz-zano-pelu.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.fonts.net/",
+      "domain": "fonts.net",
+      "label": 0,
+      "source": "tranco_rank_10242",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "http://www.cas.carollinaromer.com/",
+      "domain": "carollinaromer.com",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/agent-wallet/guides/trade-prediction-markets/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "http://sp21ct-nelur-biz-kavi-toro.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.mdhv.io/",
+      "domain": "mdhv.io",
+      "label": 0,
+      "source": "tranco_rank_10107",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.eternalmangas.org/",
+      "domain": "eternalmangas.org",
+      "label": 0,
+      "source": "tranco_rank_10038",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "http://y96hhhhhhhhh.github.io/",
+      "domain": "github.io",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://8h3ne-mxy-enlo-fwpt7-12-10-2026-aa.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/metamask-connect/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/embedded-wallets/sdk/vue/ethereum-composables/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "http://9sjbs-cpy-xx4v-9fu58-28-09-2026-hh.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/agent-wallet/troubleshooting/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://avj-th.com/page/2/",
+      "domain": "avj-th.com",
+      "label": 0,
+      "source": "tranco_rank_10191",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.research-plus.net/contact/",
+      "domain": "research-plus.net",
+      "label": 0,
+      "source": "tranco_rank_10072",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/embedded-wallets/sdk/vue/advanced/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.steemit.com/assets/plugins/editor.md/css/editormd.css",
+      "domain": "steemit.com",
+      "label": 0,
+      "source": "tranco_rank_10060",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "http://sp30ct-rumik-biz-zavex-nolad.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://ebet.co.sz/theme/default/css/style.css?v=1.0.4",
+      "domain": "ebet.co.sz",
+      "label": 0,
+      "source": "tranco_rank_10151",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/metamask-connect/evm/guides/metamask-exclusive/use-deeplinks/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://litcnd.litgorod.ru/build/assets/favicon-20261015-ace6ef327.85823ee4.svg",
+      "domain": "litgorod.ru",
+      "label": 0,
+      "source": "tranco_rank_10070",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "http://sp21ct-tevok-biz-mari-zenu.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://bankofamericadirectservices.com/login.php",
+      "domain": "bankofamericadirectservices.com",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "http://qavzani-mpt-murfelo-h8d4ka75.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.petsmart.com/hcp/_next/static/chunks/0pdqo2-lcmsfk.css",
+      "domain": "petsmart.com",
+      "label": 0,
+      "source": "tranco_rank_10284",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.ivancity.com/",
+      "domain": "ivancity.com",
+      "label": 0,
+      "source": "tranco_rank_10205",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://xavzora-kxt-belmavi-p7t3dc84.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.sexyvideoindian.com/",
+      "domain": "sexyvideoindian.com",
+      "label": 0,
+      "source": "tranco_rank_10120",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://doujin-lc.net/xmlrpc.php",
+      "domain": "doujin-lc.net",
+      "label": 0,
+      "source": "tranco_rank_10007",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.notitimba.com/estadisticas/",
+      "domain": "notitimba.com",
+      "label": 0,
+      "source": "tranco_rank_10009",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "http://mail.intomahost2.com/port/paypal/",
+      "domain": "intomahost2.com",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.kanesex.com/",
+      "domain": "kanesex.com",
+      "label": 0,
+      "source": "tranco_rank_10073",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://loadedfiles.net/assets/themes/nova/assets/css/tokens.css?v=20260817toastall1",
+      "domain": "loadedfiles.net",
+      "label": 0,
+      "source": "tranco_rank_10004",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://hela-lankaa-ads.com/img/fav/57.png",
+      "domain": "hela-lankaa-ads.com",
+      "label": 0,
+      "source": "tranco_rank_10256",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.stipepay.com/",
+      "domain": "stipepay.com",
+      "label": 0,
+      "source": "tranco_rank_10005",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://sp29ct-melro-biz-kavti-zefun.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://draveni-kxt-felveta-a9x2dw68.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app/metamask-connect/evm/quickstart/wagmi/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "http://www.xbu55.vercel.app/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://glowing-dolphin-d8959f.netlify.app/",
+      "domain": "netlify.app",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.kaldagan.com/",
+      "domain": "kaldagan.com",
+      "label": 0,
+      "source": "tranco_rank_10019",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://raj-darbar.com/favicon.ico",
+      "domain": "raj-darbar.com",
+      "label": 0,
+      "source": "tranco_rank_10269",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "http://www.ktg.carollinaromer.com/",
+      "domain": "carollinaromer.com",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.betpawa.bj/",
+      "domain": "betpawa.bj",
+      "label": 0,
+      "source": "tranco_rank_10048",
+      "type": "homepage",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://www.playinmatch99.com/mobile",
+      "domain": "playinmatch99.com",
+      "label": 0,
+      "source": "tranco_rank_10138",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "http://sp14ct-durnok-biz-zelmar-kostik.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://usabilla.com/product/enterprise/",
+      "domain": "usabilla.com",
+      "label": 0,
+      "source": "tranco_rank_10122",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "http://sp18ct10-walnek-biz-vumero.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "http://fro9z-u11-5hbq-2y5p6-12-10-2026-aa.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "http://sp18ct-tavro-biz-vunek-zelix.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "http://sp22ct-norak-biz-melu-kazi-aw7.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.paymetrust.net/customers",
+      "domain": "paymetrust.net",
+      "label": 0,
+      "source": "tranco_rank_10030",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    },
+    {
+      "url": "https://xbu55.vercel.app/",
+      "domain": "vercel.app",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "http://zpx56-pnl-icah-qk529-28-09-2026-hh.pages.dev/",
+      "domain": "pages.dev",
+      "label": 1,
+      "source": "openphish_fresh",
+      "type": "phishing_feed",
+      "fetched_at": "2026-10-15T21:23:49.330162+00:00"
+    },
+    {
+      "url": "https://www.dergipark.org.tr/favicon.ico",
+      "domain": "dergipark.org.tr",
+      "label": 0,
+      "source": "tranco_rank_10217",
+      "type": "crawled_real_path",
+      "fetched_at": "2026-10-15T21:23:51.199637+00:00"
+    }
+  ]
+}

@@ -1,0 +1,1090 @@
+{
+  "model_label": "Headline Ablated XGBoost (24 Features, Invariant Ratios, Zero Path Bias)",
+  "feature_count": 24,
+  "split": "Validation Split (Tuning Only - Error Analysis Partition)",
+  "total_legit_tested": 100,
+  "count_lexical_ge_30": 1,
+  "fraction_ge_30": 0.01,
+  "top_20": [
+    {
+      "url": "https://www.apple-dns.net/",
+      "domain": "apple-dns.net",
+      "type": "homepage",
+      "lexical_score": 74.8,
+      "reasons": [
+        {
+          "feature": "brand_in_domain",
+          "description": "Brand name observed inside domain structure",
+          "value": 1.0,
+          "impact": 1.8945,
+          "direction": "suspicious"
+        },
+        {
+          "feature": "is_https",
+          "description": "Protected by secure HTTPS encryption",
+          "value": 1.0,
+          "impact": -1.1019,
+          "direction": "benign"
+        },
+        {
+          "feature": "domain_hyphen_count",
+          "description": "Domain contains 1 hyphen(s), typical of brand typosquatting",
+          "value": 1.0,
+          "impact": 1.0199,
+          "direction": "suspicious"
+        },
+        {
+          "feature": "subdomain_count",
+          "description": "Standard clean domain structure with 0 subdomain(s)",
+          "value": 0.0,
+          "impact": -0.5823,
+          "direction": "benign"
+        },
+        {
+          "feature": "url_digit_ratio",
+          "description": "Low numeric ratio in URL (0.0% digits)",
+          "value": 0.0,
+          "impact": -0.3884,
+          "direction": "benign"
+        }
+      ],
+      "key_features": {
+        "is_https": 1.0,
+        "domain_length": 13.0,
+        "domain_dot_count": 1.0,
+        "domain_hyphen_count": 1.0,
+        "domain_digit_ratio": 0.0,
+        "domain_entropy": 3.2389,
+        "subdomain_count": 0.0,
+        "path_digit_ratio": 0.0,
+        "path_hyphen_ratio": 0.0
+      }
+    },
+    {
+      "url": "https://www.amazonvideo.com/",
+      "domain": "amazonvideo.com",
+      "type": "homepage",
+      "lexical_score": 19.8,
+      "reasons": [
+        {
+          "feature": "brand_in_domain",
+          "description": "Brand name observed inside domain structure",
+          "value": 1.0,
+          "impact": 1.4814,
+          "direction": "suspicious"
+        },
+        {
+          "feature": "is_https",
+          "description": "Protected by secure HTTPS encryption",
+          "value": 1.0,
+          "impact": -1.1979,
+          "direction": "benign"
+        },
+        {
+          "feature": "subdomain_count",
+          "description": "Standard clean domain structure with 0 subdomain(s)",
+          "value": 0.0,
+          "impact": -0.7913,
+          "direction": "benign"
+        },
+        {
+          "feature": "url_digit_ratio",
+          "description": "Low numeric ratio in URL (0.0% digits)",
+          "value": 0.0,
+          "impact": -0.3822,
+          "direction": "benign"
+        },
+        {
+          "feature": "hostname_length",
+          "description": "Standard hostname length (15 characters)",
+          "value": 15.0,
+          "impact": -0.1888,
+          "direction": "benign"
+        }
+      ],
+      "key_features": {
+        "is_https": 1.0,
+        "domain_length": 15.0,
+        "domain_dot_count": 1.0,
+        "domain_hyphen_count": 0.0,
+        "domain_digit_ratio": 0.0,
+        "domain_entropy": 3.3232,
+        "subdomain_count": 0.0,
+        "path_digit_ratio": 0.0,
+        "path_hyphen_ratio": 0.0
+      }
+    },
+    {
+      "url": "https://www.googleapis.com/",
+      "domain": "googleapis.com",
+      "type": "homepage",
+      "lexical_score": 13.9,
+      "reasons": [
+        {
+          "feature": "brand_in_domain",
+          "description": "Brand name observed inside domain structure",
+          "value": 1.0,
+          "impact": 1.4346,
+          "direction": "suspicious"
+        },
+        {
+          "feature": "is_https",
+          "description": "Protected by secure HTTPS encryption",
+          "value": 1.0,
+          "impact": -1.2054,
+          "direction": "benign"
+        },
+        {
+          "feature": "subdomain_count",
+          "description": "Standard clean domain structure with 0 subdomain(s)",
+          "value": 0.0,
+          "impact": -0.6995,
+          "direction": "benign"
+        },
+        {
+          "feature": "url_digit_ratio",
+          "description": "Low numeric ratio in URL (0.0% digits)",
+          "value": 0.0,
+          "impact": -0.3969,
+          "direction": "benign"
+        },
+        {
+          "feature": "hostname_length",
+          "description": "Standard hostname length (14 characters)",
+          "value": 14.0,
+          "impact": -0.3128,
+          "direction": "benign"
+        }
+      ],
+      "key_features": {
+        "is_https": 1.0,
+        "domain_length": 14.0,
+        "domain_dot_count": 1.0,
+        "domain_hyphen_count": 0.0,
+        "domain_digit_ratio": 0.0,
+        "domain_entropy": 3.3249,
+        "subdomain_count": 0.0,
+        "path_digit_ratio": 0.0,
+        "path_hyphen_ratio": 0.0
+      }
+    },
+    {
+      "url": "https://www.microsoftonline.com/",
+      "domain": "microsoftonline.com",
+      "type": "homepage",
+      "lexical_score": 11.1,
+      "reasons": [
+        {
+          "feature": "is_https",
+          "description": "Protected by secure HTTPS encryption",
+          "value": 1.0,
+          "impact": -1.1901,
+          "direction": "benign"
+        },
+        {
+          "feature": "brand_in_domain",
+          "description": "Brand name observed inside domain structure",
+          "value": 1.0,
+          "impact": 1.0874,
+          "direction": "suspicious"
+        },
+        {
+          "feature": "subdomain_count",
+          "description": "Standard clean domain structure with 0 subdomain(s)",
+          "value": 0.0,
+          "impact": -0.9169,
+          "direction": "benign"
+        },
+        {
+          "feature": "url_digit_ratio",
+          "description": "Low numeric ratio in URL (0.0% digits)",
+          "value": 0.0,
+          "impact": -0.388,
+          "direction": "benign"
+        },
+        {
+          "feature": "domain_entropy",
+          "description": "Natural language domain entropy (3.41 bits)",
+          "value": 3.4058,
+          "impact": -0.3517,
+          "direction": "benign"
+        }
+      ],
+      "key_features": {
+        "is_https": 1.0,
+        "domain_length": 19.0,
+        "domain_dot_count": 1.0,
+        "domain_hyphen_count": 0.0,
+        "domain_digit_ratio": 0.0,
+        "domain_entropy": 3.4058,
+        "subdomain_count": 0.0,
+        "path_digit_ratio": 0.0,
+        "path_hyphen_ratio": 0.0
+      }
+    },
+    {
+      "url": "https://www.cloud.microsoft/",
+      "domain": "cloud.microsoft",
+      "type": "homepage",
+      "lexical_score": 7.2,
+      "reasons": [
+        {
+          "feature": "is_https",
+          "description": "Protected by secure HTTPS encryption",
+          "value": 1.0,
+          "impact": -1.2163,
+          "direction": "benign"
+        },
+        {
+          "feature": "subdomain_count",
+          "description": "Standard clean domain structure with 0 subdomain(s)",
+          "value": 0.0,
+          "impact": -0.8524,
+          "direction": "benign"
+        },
+        {
+          "feature": "tld_length",
+          "description": "Unusual top-level domain length (9 characters)",
+          "value": 9.0,
+          "impact": 0.6031,
+          "direction": "suspicious"
+        },
+        {
+          "feature": "url_digit_ratio",
+          "description": "Low numeric ratio in URL (0.0% digits)",
+          "value": 0.0,
+          "impact": -0.5103,
+          "direction": "benign"
+        },
+        {
+          "feature": "hostname_length",
+          "description": "Standard hostname length (15 characters)",
+          "value": 15.0,
+          "impact": -0.2211,
+          "direction": "benign"
+        }
+      ],
+      "key_features": {
+        "is_https": 1.0,
+        "domain_length": 15.0,
+        "domain_dot_count": 1.0,
+        "domain_hyphen_count": 0.0,
+        "domain_digit_ratio": 0.0,
+        "domain_entropy": 3.4566,
+        "subdomain_count": 0.0,
+        "path_digit_ratio": 0.0,
+        "path_hyphen_ratio": 0.0
+      }
+    },
+    {
+      "url": "https://www.ezviz7.com/",
+      "domain": "ezviz7.com",
+      "type": "homepage",
+      "lexical_score": 7.0,
+      "reasons": [
+        {
+          "feature": "is_https",
+          "description": "Protected by secure HTTPS encryption",
+          "value": 1.0,
+          "impact": -1.1245,
+          "direction": "benign"
+        },
+        {
+          "feature": "url_digit_ratio",
+          "description": "Elevated numeric ratio in URL (6.7% digits) typical of generated phishing paths",
+          "value": 0.0667,
+          "impact": 0.74,
+          "direction": "suspicious"
+        },
+        {
+          "feature": "subdomain_count",
+          "description": "Standard clean domain structure with 0 subdomain(s)",
+          "value": 0.0,
+          "impact": -0.6601,
+          "direction": "benign"
+        },
+        {
+          "feature": "hostname_length",
+          "description": "Standard hostname length (10 characters)",
+          "value": 10.0,
+          "impact": -0.559,
+          "direction": "benign"
+        },
+        {
+          "feature": "domain_entropy",
+          "description": "Natural language domain entropy (3.12 bits)",
+          "value": 3.1219,
+          "impact": -0.2588,
+          "direction": "benign"
+        }
+      ],
+      "key_features": {
+        "is_https": 1.0,
+        "domain_length": 10.0,
+        "domain_dot_count": 1.0,
+        "domain_hyphen_count": 0.0,
+        "domain_digit_ratio": 0.1,
+        "domain_entropy": 3.1219,
+        "subdomain_count": 0.0,
+        "path_digit_ratio": 0.0,
+        "path_hyphen_ratio": 0.0
+      }
+    },
+    {
+      "url": "https://www.x.com/",
+      "domain": "x.com",
+      "type": "homepage",
+      "lexical_score": 6.9,
+      "reasons": [
+        {
+          "feature": "is_https",
+          "description": "Protected by secure HTTPS encryption",
+          "value": 1.0,
+          "impact": -1.1142,
+          "direction": "benign"
+        },
+        {
+          "feature": "domain_length",
+          "description": "Short throwaway domain name (5 characters)",
+          "value": 5.0,
+          "impact": 1.0425,
+          "direction": "suspicious"
+        },
+        {
+          "feature": "hostname_length",
+          "description": "Standard hostname length (5 characters)",
+          "value": 5.0,
+          "impact": -0.5915,
+          "direction": "benign"
+        },
+        {
+          "feature": "url_digit_ratio",
+          "description": "Low numeric ratio in URL (0.0% digits)",
+          "value": 0.0,
+          "impact": -0.3762,
+          "direction": "benign"
+        },
+        {
+          "feature": "domain_entropy",
+          "description": "Natural language domain entropy (2.32 bits)",
+          "value": 2.3219,
+          "impact": -0.306,
+          "direction": "benign"
+        }
+      ],
+      "key_features": {
+        "is_https": 1.0,
+        "domain_length": 5.0,
+        "domain_dot_count": 1.0,
+        "domain_hyphen_count": 0.0,
+        "domain_digit_ratio": 0.0,
+        "domain_entropy": 2.3219,
+        "subdomain_count": 0.0,
+        "path_digit_ratio": 0.0,
+        "path_hyphen_ratio": 0.0
+      }
+    },
+    {
+      "url": "https://www.googleusercontent.com/",
+      "domain": "googleusercontent.com",
+      "type": "homepage",
+      "lexical_score": 6.7,
+      "reasons": [
+        {
+          "feature": "is_https",
+          "description": "Protected by secure HTTPS encryption",
+          "value": 1.0,
+          "impact": -1.2017,
+          "direction": "benign"
+        },
+        {
+          "feature": "subdomain_count",
+          "description": "Standard clean domain structure with 0 subdomain(s)",
+          "value": 0.0,
+          "impact": -0.987,
+          "direction": "benign"
+        },
+        {
+          "feature": "brand_in_domain",
+          "description": "Brand name observed inside domain structure",
+          "value": 1.0,
+          "impact": 0.6492,
+          "direction": "suspicious"
+        },
+        {
+          "feature": "url_digit_ratio",
+          "description": "Low numeric ratio in URL (0.0% digits)",
+          "value": 0.0,
+          "impact": -0.4036,
+          "direction": "benign"
+        },
+        {
+          "feature": "domain_length",
+          "description": "Standard domain length (21 characters)",
+          "value": 21.0,
+          "impact": -0.3652,
+          "direction": "benign"
+        }
+      ],
+      "key_features": {
+        "is_https": 1.0,
+        "domain_length": 21.0,
+        "domain_dot_count": 1.0,
+        "domain_hyphen_count": 0.0,
+        "domain_digit_ratio": 0.0,
+        "domain_entropy": 3.404,
+        "subdomain_count": 0.0,
+        "path_digit_ratio": 0.0,
+        "path_hyphen_ratio": 0.0
+      }
+    },
+    {
+      "url": "https://www.zoom.us/",
+      "domain": "zoom.us",
+      "type": "homepage",
+      "lexical_score": 6.6,
+      "reasons": [
+        {
+          "feature": "is_https",
+          "description": "Protected by secure HTTPS encryption",
+          "value": 1.0,
+          "impact": -1.2419,
+          "direction": "benign"
+        },
+        {
+          "feature": "url_digit_ratio",
+          "description": "Low numeric ratio in URL (0.0% digits)",
+          "value": 0.0,
+          "impact": -0.6549,
+          "direction": "benign"
+        },
+        {
+          "feature": "hostname_length",
+          "description": "Standard hostname length (7 characters)",
+          "value": 7.0,
+          "impact": -0.6129,
+          "direction": "benign"
+        },
+        {
+          "feature": "subdomain_count",
+          "description": "Standard clean domain structure with 0 subdomain(s)",
+          "value": 0.0,
+          "impact": -0.5153,
+          "direction": "benign"
+        },
+        {
+          "feature": "domain_length",
+          "description": "Short throwaway domain name (7 characters)",
+          "value": 7.0,
+          "impact": 0.5082,
+          "direction": "suspicious"
+        }
+      ],
+      "key_features": {
+        "is_https": 1.0,
+        "domain_length": 7.0,
+        "domain_dot_count": 1.0,
+        "domain_hyphen_count": 0.0,
+        "domain_digit_ratio": 0.0,
+        "domain_entropy": 2.5216,
+        "subdomain_count": 0.0,
+        "path_digit_ratio": 0.0,
+        "path_hyphen_ratio": 0.0
+      }
+    },
+    {
+      "url": "https://www.pv-cdn.net/",
+      "domain": "pv-cdn.net",
+      "type": "homepage",
+      "lexical_score": 6.2,
+      "reasons": [
+        {
+          "feature": "is_https",
+          "description": "Protected by secure HTTPS encryption",
+          "value": 1.0,
+          "impact": -1.1828,
+          "direction": "benign"
+        },
+        {
+          "feature": "domain_hyphen_count",
+          "description": "Domain contains 1 hyphen(s), typical of brand typosquatting",
+          "value": 1.0,
+          "impact": 0.8492,
+          "direction": "suspicious"
+        },
+        {
+          "feature": "hostname_length",
+          "description": "Standard hostname length (10 characters)",
+          "value": 10.0,
+          "impact": -0.6659,
+          "direction": "benign"
+        },
+        {
+          "feature": "subdomain_count",
+          "description": "Standard clean domain structure with 0 subdomain(s)",
+          "value": 0.0,
+          "impact": -0.6614,
+          "direction": "benign"
+        },
+        {
+          "feature": "url_digit_ratio",
+          "description": "Low numeric ratio in URL (0.0% digits)",
+          "value": 0.0,
+          "impact": -0.5012,
+          "direction": "benign"
+        }
+      ],
+      "key_features": {
+        "is_https": 1.0,
+        "domain_length": 10.0,
+        "domain_dot_count": 1.0,
+        "domain_hyphen_count": 1.0,
+        "domain_digit_ratio": 0.0,
+        "domain_entropy": 3.1219,
+        "subdomain_count": 0.0,
+        "path_digit_ratio": 0.0,
+        "path_hyphen_ratio": 0.0
+      }
+    },
+    {
+      "url": "https://www.spotify.com/",
+      "domain": "spotify.com",
+      "type": "homepage",
+      "lexical_score": 5.2,
+      "reasons": [
+        {
+          "feature": "is_https",
+          "description": "Protected by secure HTTPS encryption",
+          "value": 1.0,
+          "impact": -1.2592,
+          "direction": "benign"
+        },
+        {
+          "feature": "subdomain_count",
+          "description": "Standard clean domain structure with 0 subdomain(s)",
+          "value": 0.0,
+          "impact": -0.5864,
+          "direction": "benign"
+        },
+        {
+          "feature": "hostname_length",
+          "description": "Standard hostname length (11 characters)",
+          "value": 11.0,
+          "impact": -0.4499,
+          "direction": "benign"
+        },
+        {
+          "feature": "url_digit_ratio",
+          "description": "Low numeric ratio in URL (0.0% digits)",
+          "value": 0.0,
+          "impact": -0.4296,
+          "direction": "benign"
+        },
+        {
+          "feature": "domain_length",
+          "description": "Short throwaway domain name (11 characters)",
+          "value": 11.0,
+          "impact": 0.1942,
+          "direction": "suspicious"
+        }
+      ],
+      "key_features": {
+        "is_https": 1.0,
+        "domain_length": 11.0,
+        "domain_dot_count": 1.0,
+        "domain_hyphen_count": 0.0,
+        "domain_digit_ratio": 0.0,
+        "domain_entropy": 3.2776,
+        "subdomain_count": 0.0,
+        "path_digit_ratio": 0.0,
+        "path_hyphen_ratio": 0.0
+      }
+    },
+    {
+      "url": "https://www.windows.net/",
+      "domain": "windows.net",
+      "type": "homepage",
+      "lexical_score": 4.7,
+      "reasons": [
+        {
+          "feature": "is_https",
+          "description": "Protected by secure HTTPS encryption",
+          "value": 1.0,
+          "impact": -1.2594,
+          "direction": "benign"
+        },
+        {
+          "feature": "subdomain_count",
+          "description": "Standard clean domain structure with 0 subdomain(s)",
+          "value": 0.0,
+          "impact": -0.5822,
+          "direction": "benign"
+        },
+        {
+          "feature": "hostname_length",
+          "description": "Standard hostname length (11 characters)",
+          "value": 11.0,
+          "impact": -0.4642,
+          "direction": "benign"
+        },
+        {
+          "feature": "url_digit_ratio",
+          "description": "Low numeric ratio in URL (0.0% digits)",
+          "value": 0.0,
+          "impact": -0.451,
+          "direction": "benign"
+        },
+        {
+          "feature": "domain_length",
+          "description": "Short throwaway domain name (11 characters)",
+          "value": 11.0,
+          "impact": 0.1733,
+          "direction": "suspicious"
+        }
+      ],
+      "key_features": {
+        "is_https": 1.0,
+        "domain_length": 11.0,
+        "domain_dot_count": 1.0,
+        "domain_hyphen_count": 0.0,
+        "domain_digit_ratio": 0.0,
+        "domain_entropy": 3.0958,
+        "subdomain_count": 0.0,
+        "path_digit_ratio": 0.0,
+        "path_hyphen_ratio": 0.0
+      }
+    },
+    {
+      "url": "https://www.mozilla.org/",
+      "domain": "mozilla.org",
+      "type": "homepage",
+      "lexical_score": 4.7,
+      "reasons": [
+        {
+          "feature": "is_https",
+          "description": "Protected by secure HTTPS encryption",
+          "value": 1.0,
+          "impact": -1.2594,
+          "direction": "benign"
+        },
+        {
+          "feature": "subdomain_count",
+          "description": "Standard clean domain structure with 0 subdomain(s)",
+          "value": 0.0,
+          "impact": -0.5822,
+          "direction": "benign"
+        },
+        {
+          "feature": "hostname_length",
+          "description": "Standard hostname length (11 characters)",
+          "value": 11.0,
+          "impact": -0.4642,
+          "direction": "benign"
+        },
+        {
+          "feature": "url_digit_ratio",
+          "description": "Low numeric ratio in URL (0.0% digits)",
+          "value": 0.0,
+          "impact": -0.451,
+          "direction": "benign"
+        },
+        {
+          "feature": "domain_length",
+          "description": "Short throwaway domain name (11 characters)",
+          "value": 11.0,
+          "impact": 0.1733,
+          "direction": "suspicious"
+        }
+      ],
+      "key_features": {
+        "is_https": 1.0,
+        "domain_length": 11.0,
+        "domain_dot_count": 1.0,
+        "domain_hyphen_count": 0.0,
+        "domain_digit_ratio": 0.0,
+        "domain_entropy": 3.0958,
+        "subdomain_count": 0.0,
+        "path_digit_ratio": 0.0,
+        "path_hyphen_ratio": 0.0
+      }
+    },
+    {
+      "url": "https://www.aaplimg.com/",
+      "domain": "aaplimg.com",
+      "type": "homepage",
+      "lexical_score": 4.7,
+      "reasons": [
+        {
+          "feature": "is_https",
+          "description": "Protected by secure HTTPS encryption",
+          "value": 1.0,
+          "impact": -1.2594,
+          "direction": "benign"
+        },
+        {
+          "feature": "subdomain_count",
+          "description": "Standard clean domain structure with 0 subdomain(s)",
+          "value": 0.0,
+          "impact": -0.5822,
+          "direction": "benign"
+        },
+        {
+          "feature": "hostname_length",
+          "description": "Standard hostname length (11 characters)",
+          "value": 11.0,
+          "impact": -0.4642,
+          "direction": "benign"
+        },
+        {
+          "feature": "url_digit_ratio",
+          "description": "Low numeric ratio in URL (0.0% digits)",
+          "value": 0.0,
+          "impact": -0.451,
+          "direction": "benign"
+        },
+        {
+          "feature": "domain_length",
+          "description": "Short throwaway domain name (11 characters)",
+          "value": 11.0,
+          "impact": 0.1733,
+          "direction": "suspicious"
+        }
+      ],
+      "key_features": {
+        "is_https": 1.0,
+        "domain_length": 11.0,
+        "domain_dot_count": 1.0,
+        "domain_hyphen_count": 0.0,
+        "domain_digit_ratio": 0.0,
+        "domain_entropy": 3.0958,
+        "subdomain_count": 0.0,
+        "path_digit_ratio": 0.0,
+        "path_hyphen_ratio": 0.0
+      }
+    },
+    {
+      "url": "https://www.youtube.com/",
+      "domain": "youtube.com",
+      "type": "homepage",
+      "lexical_score": 4.7,
+      "reasons": [
+        {
+          "feature": "is_https",
+          "description": "Protected by secure HTTPS encryption",
+          "value": 1.0,
+          "impact": -1.2594,
+          "direction": "benign"
+        },
+        {
+          "feature": "subdomain_count",
+          "description": "Standard clean domain structure with 0 subdomain(s)",
+          "value": 0.0,
+          "impact": -0.5822,
+          "direction": "benign"
+        },
+        {
+          "feature": "hostname_length",
+          "description": "Standard hostname length (11 characters)",
+          "value": 11.0,
+          "impact": -0.4642,
+          "direction": "benign"
+        },
+        {
+          "feature": "url_digit_ratio",
+          "description": "Low numeric ratio in URL (0.0% digits)",
+          "value": 0.0,
+          "impact": -0.451,
+          "direction": "benign"
+        },
+        {
+          "feature": "domain_length",
+          "description": "Short throwaway domain name (11 characters)",
+          "value": 11.0,
+          "impact": 0.1733,
+          "direction": "suspicious"
+        }
+      ],
+      "key_features": {
+        "is_https": 1.0,
+        "domain_length": 11.0,
+        "domain_dot_count": 1.0,
+        "domain_hyphen_count": 0.0,
+        "domain_digit_ratio": 0.0,
+        "domain_entropy": 3.0958,
+        "subdomain_count": 0.0,
+        "path_digit_ratio": 0.0,
+        "path_hyphen_ratio": 0.0
+      }
+    },
+    {
+      "url": "https://www.tiktokv.com/",
+      "domain": "tiktokv.com",
+      "type": "homepage",
+      "lexical_score": 4.6,
+      "reasons": [
+        {
+          "feature": "is_https",
+          "description": "Protected by secure HTTPS encryption",
+          "value": 1.0,
+          "impact": -1.2595,
+          "direction": "benign"
+        },
+        {
+          "feature": "subdomain_count",
+          "description": "Standard clean domain structure with 0 subdomain(s)",
+          "value": 0.0,
+          "impact": -0.5823,
+          "direction": "benign"
+        },
+        {
+          "feature": "hostname_length",
+          "description": "Standard hostname length (11 characters)",
+          "value": 11.0,
+          "impact": -0.4646,
+          "direction": "benign"
+        },
+        {
+          "feature": "url_digit_ratio",
+          "description": "Low numeric ratio in URL (0.0% digits)",
+          "value": 0.0,
+          "impact": -0.4587,
+          "direction": "benign"
+        },
+        {
+          "feature": "domain_length",
+          "description": "Short throwaway domain name (11 characters)",
+          "value": 11.0,
+          "impact": 0.1759,
+          "direction": "suspicious"
+        }
+      ],
+      "key_features": {
+        "is_https": 1.0,
+        "domain_length": 11.0,
+        "domain_dot_count": 1.0,
+        "domain_hyphen_count": 0.0,
+        "domain_digit_ratio": 0.0,
+        "domain_entropy": 2.914,
+        "subdomain_count": 0.0,
+        "path_digit_ratio": 0.0,
+        "path_hyphen_ratio": 0.0
+      }
+    },
+    {
+      "url": "https://www.domaincontrol.com/",
+      "domain": "domaincontrol.com",
+      "type": "homepage",
+      "lexical_score": 4.5,
+      "reasons": [
+        {
+          "feature": "is_https",
+          "description": "Protected by secure HTTPS encryption",
+          "value": 1.0,
+          "impact": -1.2374,
+          "direction": "benign"
+        },
+        {
+          "feature": "subdomain_count",
+          "description": "Standard clean domain structure with 0 subdomain(s)",
+          "value": 0.0,
+          "impact": -0.8898,
+          "direction": "benign"
+        },
+        {
+          "feature": "url_digit_ratio",
+          "description": "Low numeric ratio in URL (0.0% digits)",
+          "value": 0.0,
+          "impact": -0.432,
+          "direction": "benign"
+        },
+        {
+          "feature": "domain_hyphen_count",
+          "description": "Domain contains no suspicious hyphens (0 hyphens)",
+          "value": 0.0,
+          "impact": -0.1283,
+          "direction": "benign"
+        },
+        {
+          "feature": "domain_length",
+          "description": "Standard domain length (17 characters)",
+          "value": 17.0,
+          "impact": -0.1184,
+          "direction": "benign"
+        }
+      ],
+      "key_features": {
+        "is_https": 1.0,
+        "domain_length": 17.0,
+        "domain_dot_count": 1.0,
+        "domain_hyphen_count": 0.0,
+        "domain_digit_ratio": 0.0,
+        "domain_entropy": 3.2639,
+        "subdomain_count": 0.0,
+        "path_digit_ratio": 0.0,
+        "path_hyphen_ratio": 0.0
+      }
+    },
+    {
+      "url": "https://www.icloud.com/",
+      "domain": "icloud.com",
+      "type": "homepage",
+      "lexical_score": 4.4,
+      "reasons": [
+        {
+          "feature": "is_https",
+          "description": "Protected by secure HTTPS encryption",
+          "value": 1.0,
+          "impact": -1.2578,
+          "direction": "benign"
+        },
+        {
+          "feature": "hostname_length",
+          "description": "Standard hostname length (10 characters)",
+          "value": 10.0,
+          "impact": -0.6306,
+          "direction": "benign"
+        },
+        {
+          "feature": "subdomain_count",
+          "description": "Standard clean domain structure with 0 subdomain(s)",
+          "value": 0.0,
+          "impact": -0.6251,
+          "direction": "benign"
+        },
+        {
+          "feature": "url_digit_ratio",
+          "description": "Low numeric ratio in URL (0.0% digits)",
+          "value": 0.0,
+          "impact": -0.4571,
+          "direction": "benign"
+        },
+        {
+          "feature": "domain_length",
+          "description": "Short throwaway domain name (10 characters)",
+          "value": 10.0,
+          "impact": 0.1607,
+          "direction": "suspicious"
+        }
+      ],
+      "key_features": {
+        "is_https": 1.0,
+        "domain_length": 10.0,
+        "domain_dot_count": 1.0,
+        "domain_hyphen_count": 0.0,
+        "domain_digit_ratio": 0.0,
+        "domain_entropy": 2.9219,
+        "subdomain_count": 0.0,
+        "path_digit_ratio": 0.0,
+        "path_hyphen_ratio": 0.0
+      }
+    },
+    {
+      "url": "https://www.akadns.net/",
+      "domain": "akadns.net",
+      "type": "homepage",
+      "lexical_score": 4.4,
+      "reasons": [
+        {
+          "feature": "is_https",
+          "description": "Protected by secure HTTPS encryption",
+          "value": 1.0,
+          "impact": -1.2578,
+          "direction": "benign"
+        },
+        {
+          "feature": "hostname_length",
+          "description": "Standard hostname length (10 characters)",
+          "value": 10.0,
+          "impact": -0.6306,
+          "direction": "benign"
+        },
+        {
+          "feature": "subdomain_count",
+          "description": "Standard clean domain structure with 0 subdomain(s)",
+          "value": 0.0,
+          "impact": -0.6251,
+          "direction": "benign"
+        },
+        {
+          "feature": "url_digit_ratio",
+          "description": "Low numeric ratio in URL (0.0% digits)",
+          "value": 0.0,
+          "impact": -0.4571,
+          "direction": "benign"
+        },
+        {
+          "feature": "domain_length",
+          "description": "Short throwaway domain name (10 characters)",
+          "value": 10.0,
+          "impact": 0.1607,
+          "direction": "suspicious"
+        }
+      ],
+      "key_features": {
+        "is_https": 1.0,
+        "domain_length": 10.0,
+        "domain_dot_count": 1.0,
+        "domain_hyphen_count": 0.0,
+        "domain_digit_ratio": 0.0,
+        "domain_entropy": 2.9219,
+        "subdomain_count": 0.0,
+        "path_digit_ratio": 0.0,
+        "path_hyphen_ratio": 0.0
+      }
+    },
+    {
+      "url": "https://www.office.net/",
+      "domain": "office.net",
+      "type": "homepage",
+      "lexical_score": 4.4,
+      "reasons": [
+        {
+          "feature": "is_https",
+          "description": "Protected by secure HTTPS encryption",
+          "value": 1.0,
+          "impact": -1.2578,
+          "direction": "benign"
+        },
+        {
+          "feature": "hostname_length",
+          "description": "Standard hostname length (10 characters)",
+          "value": 10.0,
+          "impact": -0.6306,
+          "direction": "benign"
+        },
+        {
+          "feature": "subdomain_count",
+          "description": "Standard clean domain structure with 0 subdomain(s)",
+          "value": 0.0,
+          "impact": -0.6251,
+          "direction": "benign"
+        },
+        {
+          "feature": "url_digit_ratio",
+          "description": "Low numeric ratio in URL (0.0% digits)",
+          "value": 0.0,
+          "impact": -0.4571,
+          "direction": "benign"
+        },
+        {
+          "feature": "domain_length",
+          "description": "Short throwaway domain name (10 characters)",
+          "value": 10.0,
+          "impact": 0.1607,
+          "direction": "suspicious"
+        }
+      ],
+      "key_features": {
+        "is_https": 1.0,
+        "domain_length": 10.0,
+        "domain_dot_count": 1.0,
+        "domain_hyphen_count": 0.0,
+        "domain_digit_ratio": 0.0,
+        "domain_entropy": 2.9219,
+        "subdomain_count": 0.0,
+        "path_digit_ratio": 0.0,
+        "path_hyphen_ratio": 0.0
+      }
+    }
+  ]
+}
