@@ -7,6 +7,7 @@ import VerdictBadge from '../components/VerdictBadge';
 const SAMPLE_URLS = [
   { label: 'Legitimate (Google)', url: 'https://www.google.com/search?q=cybersecurity' },
   { label: 'Legitimate (Wikipedia)', url: 'https://en.wikipedia.org/wiki/Phishing' },
+  { label: 'Borderline Suspicious (53%)', url: 'https://community-forum-updates.org/thread/9821' },
   { label: 'PayPal Impersonator', url: 'http://paypal-security-update.account-verification.xyz/login.php' },
   { label: 'Raw IP Host', url: 'http://192.168.1.1/admin/login' },
   { label: 'Suspicious TLD', url: 'http://secure-banking-alert.top/verify' },

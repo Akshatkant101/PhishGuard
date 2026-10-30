@@ -49,6 +49,66 @@ class ScanService:
             .first()
         )
 
+    @staticmethod
+    def generate_summary(
+        verdict: str,
+        risk_score: float,
+        reasons: List[ReasonItem],
+        enrichment_reasons: List[EnrichmentReason],
+        features: Optional[Dict[str, float]] = None,
+    ) -> str:
+        features = features or {}
+        for r in reasons:
+            if getattr(r, "feature", "") == "allowlist":
+                return "Explicitly trusted: Domain is present in the verified organizational allowlist."
+            if getattr(r, "feature", "") == "blocklist":
+                return "Critical Risk: Domain is blocked by administrative organizational security policy."
+            if getattr(r, "feature", "") == "google_safe_browsing":
+                return "Critical Threat: Verified malicious host flagged by Google Safe Browsing threat feeds."
+
+        if verdict == "SAFE":
+            if risk_score <= 10.0:
+                return "Benign URL: Clean structural lexical profile with established domain authority and valid SSL encryption."
+            return f"Low Risk ({risk_score:.0f}/100): Primarily benign, with minor structural anomalies that do not meet threat thresholds."
+
+        suspicious_signals = []
+        for er in enrichment_reasons:
+            if er.signal == "unresolvable_dns":
+                suspicious_signals.append("unresolvable DNS records")
+            elif er.signal == "brand_impersonation":
+                suspicious_signals.append("potential brand spoofing")
+            elif er.signal == "young_domain":
+                suspicious_signals.append("recently registered domain (<30 days old)")
+            elif er.signal == "invalid_tls":
+                suspicious_signals.append("invalid TLS certificate")
+            elif er.signal == "short_lived_tls_certificate":
+                suspicious_signals.append("short-lived TLS certificate")
+
+        if features.get("has_ip_address", 0) == 1:
+            suspicious_signals.append("raw IP host address")
+        if features.get("is_https", 1) == 0:
+            suspicious_signals.append("unencrypted HTTP connection")
+        if features.get("suspicious_tld", 0) > 0.7:
+            suspicious_signals.append("high-abuse TLD")
+        if features.get("brand_name_in_subdomain", 0) == 1:
+            suspicious_signals.append("brand keyword in subdomain")
+        if features.get("subdomain_count", 0) >= 3:
+            suspicious_signals.append("excessive subdomain nesting")
+        if features.get("has_login_keyword", 0) == 1:
+            suspicious_signals.append("credential harvesting patterns")
+
+        if not suspicious_signals:
+            for r in reasons:
+                if getattr(r, "direction", "") == "suspicious" and getattr(r, "impact", 0) > 0.05:
+                    suspicious_signals.append(getattr(r, "description", "").lower())
+
+        if verdict == "SUSPICIOUS":
+            signal_text = ", ".join(suspicious_signals[:2]) if suspicious_signals else "atypical URL structure and elevated lexical entropy"
+            return f"Suspicious ({risk_score:.0f}/100): Flagged due to {signal_text}. Exercise caution before interacting."
+        else:
+            signal_text = ", ".join(suspicious_signals[:3]) if suspicious_signals else "severe compound lexical and network threat indicators"
+            return f"High-Risk Phishing ({risk_score:.0f}/100): Strongly indicative of an attack due to {signal_text}. Do not enter credentials."
+
     @classmethod
     def scan_url(cls, db: Session, raw_url: str, save_record: bool = True) -> ScanResponse:
         start_time = time.perf_counter()
@@ -100,6 +160,7 @@ class ScanService:
                 features={},
                 enrichment=None,
                 model_version=record.model_version,
+                summary="Explicitly trusted: Domain is present in the verified organizational allowlist.",
                 created_at=record.created_at,
             )
 
@@ -148,6 +209,7 @@ class ScanService:
                 features={},
                 enrichment=None,
                 model_version=record.model_version,
+                summary="Critical Risk: Domain is blocked by administrative organizational security policy.",
                 created_at=record.created_at,
             )
 
@@ -205,6 +267,7 @@ class ScanService:
                 features={},
                 enrichment={"safe_browsing": sb_result},
                 model_version=record.model_version,
+                summary=f"Critical Threat: Verified malicious host flagged by Google Safe Browsing ({sb_result.get('threat_type')}).",
                 created_at=record.created_at,
             )
 
@@ -287,6 +350,14 @@ class ScanService:
             db.commit()
             db.refresh(record)
 
+        summary = cls.generate_summary(
+            verdict=verdict,
+            risk_score=risk_score,
+            reasons=reasons,
+            enrichment_reasons=enrichment_reasons,
+            features=features,
+        )
+
         return ScanResponse(
             id=record.id,
             url=url,
@@ -301,6 +372,7 @@ class ScanService:
             features=features,
             enrichment=enrichment_data,
             model_version=model_version,
+            summary=summary,
             created_at=record.created_at,
         )
 

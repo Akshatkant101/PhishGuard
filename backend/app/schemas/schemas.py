@@ -51,6 +51,7 @@ class ScanResponse(BaseModel):
     features: Optional[Dict[str, float]] = None
     enrichment: Optional[Dict[str, Any]] = None
     model_version: Optional[str] = None
+    summary: Optional[str] = None
     created_at: Optional[datetime] = None
 
 

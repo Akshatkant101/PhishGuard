@@ -94,7 +94,7 @@ export default function ScanResultCard({ result }) {
             border: '1px solid var(--border-subtle)',
             borderRadius: 'var(--radius-sm)',
             fontSize: '12px',
-            marginBottom: '16px',
+            marginBottom: '14px',
           }}
         >
           <span style={{ color: 'var(--text-secondary)' }}>
@@ -109,6 +109,69 @@ export default function ScanResultCard({ result }) {
           </span>
         </div>
       )}
+
+      {/* ── Executive Analysis Summary (1-2 lines explaining why it scored that) ── */}
+      {(() => {
+        const isSafe = result.verdict === 'SAFE';
+        const isSuspicious = result.verdict === 'SUSPICIOUS';
+        const verdictColor = isSafe ? '#22c55e' : isSuspicious ? '#eab308' : '#ef4444';
+        
+        // Fallback summary if backend didn't provide one
+        let summaryText = result.summary;
+        if (!summaryText) {
+          if (isSafe) {
+            summaryText = result.risk_score <= 10
+              ? 'Benign URL: Clean structural lexical profile with established domain authority and valid SSL encryption.'
+              : `Low Risk (${Math.round(result.risk_score)}/100): Primarily benign, with minor structural anomalies that do not meet threat thresholds.`;
+          } else if (isSuspicious) {
+            const reasons = (result.enrichment_reasons || []).map(r => r.description.toLowerCase());
+            const signalText = reasons.length > 0 ? reasons[0] : 'atypical URL structure and elevated lexical entropy';
+            summaryText = `Suspicious (${Math.round(result.risk_score)}/100): Flagged due to ${signalText}. Exercise caution before interacting.`;
+          } else {
+            summaryText = `High-Risk Phishing (${Math.round(result.risk_score)}/100): Strongly indicative of an attack due to multiple compounding threat indicators. Do not enter credentials.`;
+          }
+        }
+
+        return (
+          <div
+            className="mono"
+            style={{
+              padding: '12px 14px',
+              backgroundColor: 'var(--bg-secondary)',
+              borderLeft: `3px solid ${verdictColor}`,
+              borderTop: '1px solid var(--border-subtle)',
+              borderRight: '1px solid var(--border-subtle)',
+              borderBottom: '1px solid var(--border-subtle)',
+              borderRadius: 'var(--radius-sm)',
+              fontSize: '12.5px',
+              lineHeight: '1.6',
+              marginBottom: '20px',
+              display: 'flex',
+              alignItems: 'flex-start',
+              gap: '12px',
+            }}
+          >
+            <ShieldAlert size={16} style={{ color: verdictColor, flexShrink: 0, marginTop: '2px' }} />
+            <div>
+              <div
+                style={{
+                  fontSize: '10.5px',
+                  textTransform: 'uppercase',
+                  letterSpacing: '0.08em',
+                  color: 'var(--text-muted)',
+                  marginBottom: '2px',
+                  fontWeight: 600,
+                }}
+              >
+                THREAT INSIGHT & SCORING RATIONALE
+              </div>
+              <div style={{ color: 'var(--text-primary)' }}>
+                {summaryText}
+              </div>
+            </div>
+          </div>
+        );
+      })()}
 
       {/* ── Top Threat Diagnostics: Risk Gauge & 6-Axis Radar Grid ── */}
       <div

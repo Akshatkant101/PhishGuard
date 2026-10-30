@@ -236,18 +236,29 @@ class EnrichmentService:
         if domain in self._dns_cache:
             return self._dns_cache[domain]
 
-        try:
-            orig_timeout = socket.getdefaulttimeout()
-            socket.setdefaulttimeout(self.timeout)
+        candidates = [domain]
+        if not domain.startswith("www."):
+            candidates.append(f"www.{domain}")
+        elif domain.startswith("www.") and len(domain) > 4:
+            candidates.append(domain[4:])
+
+        orig_timeout = socket.getdefaulttimeout()
+        for cand in candidates:
             try:
-                addr_info = socket.getaddrinfo(domain, None, socket.AF_UNSPEC, socket.SOCK_STREAM)
-                ips = list(set([item[4][0] for item in addr_info]))
-                result["resolves"] = len(ips) > 0
-                result["ips"] = ips
-            finally:
-                socket.setdefaulttimeout(orig_timeout)
-        except Exception as e:
-            result["error"] = f"DNS resolution failed: {e}"
+                socket.setdefaulttimeout(self.timeout)
+                try:
+                    addr_info = socket.getaddrinfo(cand, None, socket.AF_UNSPEC, socket.SOCK_STREAM)
+                    ips = list(set([item[4][0] for item in addr_info]))
+                    if ips:
+                        result["resolves"] = True
+                        result["ips"] = ips
+                        result["error"] = None
+                        self._dns_cache[domain] = result
+                        return result
+                finally:
+                    socket.setdefaulttimeout(orig_timeout)
+            except Exception as e:
+                result["error"] = f"DNS resolution failed: {e}"
 
         self._dns_cache[domain] = result
         return result

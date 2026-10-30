@@ -186,6 +186,24 @@ def _shannon_entropy(text: str) -> float:
     )
 
 
+TWO_PART_TLDS = frozenset({
+    # UK (.uk)
+    "co.uk", "org.uk", "ac.uk", "gov.uk", "ltd.uk", "me.uk", "net.uk",
+    # India (.in)
+    "co.in", "ac.in", "edu.in", "gov.in", "net.in", "org.in", "res.in", "gen.in", "nic.in",
+    # Australia (.au)
+    "com.au", "net.au", "org.au", "edu.au", "gov.au",
+    # Japan (.jp)
+    "co.jp", "ac.jp", "ne.jp", "or.jp", "go.jp",
+    # South Africa (.za)
+    "co.za", "ac.za", "gov.za", "org.za", "edu.za",
+    # Brazil (.br)
+    "com.br", "edu.br", "gov.br", "org.br",
+    # New Zealand (.nz)
+    "co.nz", "org.nz", "govt.nz", "ac.nz",
+})
+
+
 def _extract_registered_domain(hostname: str) -> str:
     """Extract the registered domain (eSLD + TLD) from a hostname.
 
@@ -195,8 +213,7 @@ def _extract_registered_domain(hostname: str) -> str:
     if _IP_RE.match(hostname):
         return hostname
     parts = hostname.split(".")
-    # Handle two-part TLDs like co.uk, com.au
-    TWO_PART_TLDS = {"co.uk", "com.au", "co.in", "co.jp", "ac.uk", "org.uk"}
+    # Handle two-part TLDs like co.uk, com.au, ac.in
     if len(parts) >= 3 and ".".join(parts[-2:]) in TWO_PART_TLDS:
         return ".".join(parts[-3:])
     if len(parts) >= 2:
@@ -210,11 +227,11 @@ def _extract_sld(reg_domain: str) -> str:
     Examples:
         apple.com -> apple
         apple.co.uk -> apple
+        iitr.ac.in -> iitr
         apple-dns.net -> apple-dns
         paypal-update.com -> paypal-update
     """
     parts = reg_domain.split(".")
-    TWO_PART_TLDS = {"co.uk", "com.au", "co.in", "co.jp", "ac.uk", "org.uk"}
     if len(parts) >= 3 and ".".join(parts[-2:]) in TWO_PART_TLDS:
         return parts[-3]
     if len(parts) >= 2:
@@ -232,7 +249,6 @@ def _count_subdomains(hostname: str) -> int:
     """Count the number of subdomain levels, treating www as default web prefix."""
     h = hostname[4:] if hostname.startswith("www.") else hostname
     parts = h.split(".")
-    TWO_PART_TLDS = {"co.uk", "com.au", "co.in", "co.jp", "ac.uk", "org.uk"}
     if len(parts) >= 3 and ".".join(parts[-2:]) in TWO_PART_TLDS:
         return max(len(parts) - 3, 0)
     return max(len(parts) - 2, 0)
